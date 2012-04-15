@@ -1,0 +1,348 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zcsc-3cse",
+      "name" : "Food Inspections",
+      "averageRating" : 0,
+      "category" : "Government",
+      "description" : "Recent food safety inspections. Shows date of inspection, name of eatery and rating.",
+      "displayType" : "table",
+      "licenseId" : "OPEN_DATABASE_LICENSE",
+      "numberOfComments" : 0,
+      "oid" : 0,
+      "publicationAppendEnabled" : false,
+      "publicationStage" : "unpublished",
+      "rowsUpdatedAt" : 1333037204,
+      "rowsUpdatedBy" : "j76h-ry9j",
+      "signed" : false,
+      "tableId" : 307242,
+      "totalTimesRated" : 0,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 7099194,
+        "name" : "RestaurantName",
+        "dataTypeName" : "text",
+        "description" : "Name of eatery. Not only restaurants are included, but school cafeterias, bowling alleys... anywhere with a kitchen.",
+        "fieldName" : "restaurantname",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2399726,
+        "width" : 268,
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 7099195,
+        "name" : "Rating",
+        "dataTypeName" : "text",
+        "description" : "Superior - The establishment understands and routinely corrects sanitation deficiencies on a day-to-day basis and does not wait for a health inspection before doing so. in addition, at least 75 percent of employees and management of a superior food establ",
+        "fieldName" : "rating",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2399727,
+        "width" : 172,
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 7099249,
+        "name" : "InspectionDate",
+        "dataTypeName" : "calendar_date",
+        "description" : "Date the inspection was performed.",
+        "fieldName" : "inspectiondate",
+        "position" : 4,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 2399728,
+        "width" : 268,
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 7099197,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 5,
+        "renderTypeName" : "location",
+        "tableColumnId" : 2399729,
+        "width" : 220,
+        "format" : {
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Database License"
+      },
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 7099195,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "sortBys" : [ {
+        "id" : 0,
+        "viewColumnId" : 7099195
+      } ],
+      "tableAuthor" : {
+        "id" : "j76h-ry9j",
+        "displayName" : "Matt Wynn",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileLastModified" : 1331836815,
+        "roleName" : "publisher",
+        "screenName" : "Matt Wynn",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_pages" ]
+      },
+      "tags" : [ "food", "safety", "health" ],
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ 22, "B942692A-1F02-4A48-B14A-54C758AC8489", 22, 1333036796, "275812", 1333036878, "275812", "{\n}", "ACKERMAN ELEM SCHOOL", "SUPERIOR", "2011-02-09T00:00:00", [ "{\"address\":\"5110 SO 156 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20709079831033", "-96.15809888916101", null, false ] ]
+, [ 23, "C14D9426-FE17-44D9-8150-BC9C4838C348", 23, 1333036796, "275812", 1333036881, "275812", "{\n}", "ADAMS ELEM SCHOOL", "SUPERIOR", "2011-06-16T00:00:00", [ "{\"address\":\"3420 NO 78 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.29057606221326", "-96.03357145953242", null, false ] ]
+, [ 39, "FCBF621C-043F-4E9C-9D8C-7B330DC6C559", 39, 1333036796, "275812", 1333036910, "275812", "{\n}", "ALDRICH ELEM SCHOOL", "SUPERIOR", "2011-02-08T00:00:00", [ "{\"address\":\"506 NO 162ND AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.26448553022027", "-96.16847706537914", null, false ] ]
+, [ 79, "5BB03F4F-CFC4-4082-84A8-155A416F1215", 79, 1333036796, "275812", 1333036839, "275812", "{\n}", "ARAMARK/CONAGRA", "SUPERIOR", "2010-09-23T00:00:00", [ "{\"address\":\"ELEVEN CON AGRA DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.253258671027396", "-95.92508171749877", null, false ] ]
+, [ 80, "644D74AF-7B7B-4D6A-8AF9-25869829CD7B", 80, 1333036796, "275812", 1333036842, "275812", "{\n}", "ARAMARK CORP", "SUPERIOR", "2011-07-22T00:00:00", [ "{\"address\":\"7350 WORLD COMMUNICATION DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.33715095226073", "-96.02654047382457", null, false ] ]
+, [ 81, "91089412-C871-4C08-999B-F1DB9B87BBC4", 81, 1333036796, "275812", 1333036862, "275812", "{\n}", "ARAMARK CORP", "SUPERIOR", "2011-04-25T00:00:00", [ "{\"address\":\"ONE CON AGRA DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.256304330914986", "-95.92732231549334", null, false ] ]
+, [ 103, "464DF104-F14D-4498-BC5E-85FF00DA34C2", 103, 1333036796, "275812", 1333036831, "275812", "{\n}", "ASHLAND PARK/ROBBINS ELEM", "SUPERIOR", "2010-11-17T00:00:00", [ "{\"address\":\"5050 SO 51ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20793301983462", "-95.9930449192114", null, false ] ]
+, [ 140, "5B2D5240-4A67-47E7-9100-969A85C8B304", 140, 1333036796, "275812", 1333036839, "275812", "{\n}", "BANCROFT SCHOOL CAFETERIA", "SUPERIOR", "2011-06-29T00:00:00", [ "{\"address\":\"2724 RIVERVIEW BLVD.\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23368375071675", "-95.92550723272313", null, false ] ]
+, [ 152, "E6741B30-59D5-4CAA-A75E-33E6C9C40D34", 152, 1333036796, "275812", 1333036899, "275812", "{\n}", "BEADLE MIDDLE SCHOOL", "SUPERIOR", "2011-02-07T00:00:00", [ "{\"address\":\"18201 JEFFERSON ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.19561818314362", "-96.19988216310044", null, false ] ]
+, [ 153, "E285233F-2757-4627-8B18-069056E861C6", 153, 1333036796, "275812", 1333036896, "275812", "{\n}", "BEALS SCHOOL CAFETERIA", "SUPERIOR", "2011-06-09T00:00:00", [ "{\"address\":\"1720 SO 48 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.242317242198", "-95.9854200663151", null, false ] ]
+, [ 162, "67D17234-C634-4860-8086-9FF9563AC538", 162, 1333036796, "275812", 1333036844, "275812", "{\n}", "BENNINGTON ELEMENTRY", "SUPERIOR", "2011-03-22T00:00:00", [ "{\"address\":\"156 BENNINGTON RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 163, "1BF7D46D-4E7C-4444-A329-4DFC6866C7A5", 163, 1333036796, "275812", 1333036814, "275812", "{\n}", "BENNINGTON HIGH SCHOOL", "SUPERIOR", "2011-04-14T00:00:00", [ "{\"address\":\"11620 OLD BENNINGTON RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 167, "5865754F-BBFE-477F-8515-B37FAC3EF351", 167, 1333036796, "275812", 1333036838, "275812", "{\n}", "BENSON WEST SCH CAFETERIA", "SUPERIOR", "2011-06-28T00:00:00", [ "{\"address\":\"6652 MAPLE ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.28508086815003", "-96.0157752406874", null, false ] ]
+, [ 173, "B39701A6-FB33-4A7B-80F9-89E9F9EF2E10", 173, 1333036796, "275812", 1333036876, "275812", "{\n}", "BEVERIDGE JR HIGH SCHOOL", "SUPERIOR", "2011-04-21T00:00:00", [ "{\"address\":\"1616 SO 120 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.24232623541832", "-96.10070415725107", null, false ] ]
+, [ 200, "C4486DB3-BEC0-4BC3-99C0-3582CA57FD06", 200, 1333036796, "275812", 1333036883, "275812", "{\n}", "BLACK ELK ELEMENTARY", "SUPERIOR", "2011-02-07T00:00:00", [ "{\"address\":\"6708 SO 161 AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.19228795770806", "-96.165680173868", null, false ] ]
+, [ 239, "B8DF2516-093A-41DA-969A-949D1E583A7D", 239, 1333036796, "275812", 1333036878, "275812", "{\n}", "BOYD SCHOOL CAFETERIA", "SUPERIOR", "2011-06-16T00:00:00", [ "{\"address\":\"8314 BOYD ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.29827305886107", "-96.04237413043069", null, false ] ]
+, [ 242, "6A5B61CE-68A6-4A98-9B0C-816A424ED9B7", 242, 1333036796, "275812", 1333036845, "275812", "{\n}", "BOYS TOWN VISITORS CTR CAFE", "SUPERIOR", "2010-11-30T00:00:00", [ "{\"address\":\"13747 FLANAGAN BLVD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 243, "2CDDAD16-9E17-4B07-A692-EF7BBC6AC728", 243, 1333036796, "275812", 1333036820, "275812", "{\n}", "BOYS TOWN WEGNER SCHOOL", "SUPERIOR", "2011-03-29T00:00:00", [ "{\"address\":\"14124 NORTON DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 266, "CC5C8A25-880C-40E2-B2B3-B6DB3B965960", 266, 1333036796, "275812", 1333036886, "275812", "{\n}", "BROWNELL TALBOT SCHOOL", "SUPERIOR", "2011-03-17T00:00:00", [ "{\"address\":\"400 NO HAPPY HOLLOW\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 270, "EFD37007-66E4-4557-AA8B-CBED55FD8AB6", 270, 1333036796, "275812", 1333036904, "275812", "{\n}", "BRYAN SCHOOL CAFETERIA", "SUPERIOR", "2011-04-27T00:00:00", [ "{\"address\":\"8210 SO 42 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 271, "9AC3BF06-097E-4835-976D-6E9C415473A0", 271, 1333036796, "275812", 1333036865, "275812", "{\n}", "BRYAN SENIOR HIGH", "SUPERIOR", "2011-05-06T00:00:00", [ "{\"address\":\"4700 GILES RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.17632503780603", "-95.98437827305965", null, false ] ]
+, [ 295, "1F5E51DF-C7C9-461A-95E2-C9FA162C9CFD", 295, 1333036796, "275812", 1333036815, "275812", "{\n}", "BUFFETT MIDDLE SCHOOL", "SUPERIOR", "2011-05-05T00:00:00", [ "{\"address\":\"14101 LARIMORE AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.302354332721286", "-96.13549664644341", null, false ] ]
+, [ 327, "92CE03DC-2B15-48DA-9E1D-6F8C66432719", 327, 1333036796, "275812", 1333036863, "275812", "{\n}", "BURKE SR HIGH SCHOOL", "SUPERIOR", "2011-04-22T00:00:00", [ "{\"address\":\"12200 DODGE ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 366, "3619EDA3-4AEB-46D5-95B2-B104E9D98256", 366, 1333036796, "275812", 1333036824, "275812", "{\n}", "CASTELAR ELEMENTARY", "SUPERIOR", "2011-06-29T00:00:00", [ "{\"address\":\"2316 SO 18 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23798368647872", "-95.93976244543708", null, false ] ]
+, [ 371, "7D0E5780-5E14-4517-A25C-164F8CFF248D", 371, 1333036796, "275812", 1333036854, "275812", "{\n}", "CATLIN MAGNET ELEM", "SUPERIOR", "2011-05-05T00:00:00", [ "{\"address\":\"12736 MARINDA ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.238701967640225", "-96.11325869278011", null, false ] ]
+, [ 374, "643D46F4-ECE3-44E9-8685-81BF5EB73AC5", 374, 1333036796, "275812", 1333036842, "275812", "{\n}", "CENTRAL HIGH SCH CAFETERIA", "SUPERIOR", "2010-12-17T00:00:00", [ "{\"address\":\"124 NO 20 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260420594647826", "-95.94241448687399", null, false ] ]
+, [ 378, "67B8CD85-8ACA-4104-AE34-84A85C7F9B67", 378, 1333036796, "275812", 1333036844, "275812", "{\n}", "CHANDLER VIEW SCHOOL", "SUPERIOR", "2011-06-30T00:00:00", [ "{\"address\":\"7800 SO 25 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 441, "6321AB13-4960-4221-8E6C-837CC83AF237", 441, 1333036796, "275812", 1333036842, "275812", "{\n}", "COLUMBIAN ELEM SCHOOL", "SUPERIOR", "2011-04-22T00:00:00", [ "{\"address\":\"330 SO 127 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25690424551328", "-96.11077656397924", null, false ] ]
+, [ 462, "DC67D790-76BC-4B6B-A0EC-CBF7339F4227", 462, 1333036796, "275812", 1333036893, "275812", "{\n}", "CORRECTIONAL FAC KITCHEN", "SUPERIOR", "2010-12-01T00:00:00", [ "{\"address\":\"710 SO 17 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.253172059091696", "-95.93815170045508", null, false ] ]
+, [ 467, "EEAB619E-176F-40C4-A2BB-226EE74C5EEF", 467, 1333036796, "275812", 1333036904, "275812", "{\n}", "COTTONWOOD ELEMENTARY", "SUPERIOR", "2011-02-15T00:00:00", [ "{\"address\":\"615 PIEDMONT DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25450055463231", "-96.15575848985597", null, false ] ]
+, [ 486, "FF8123A0-4FC9-4380-879C-8E13AAA58AE0", 486, 1333036796, "275812", 1333036911, "275812", "{\n}", "CRESTRIDGE MAGNET SCHOOL", "SUPERIOR", "2011-05-09T00:00:00", [ "{\"address\":\"818 CRESTRIDGE DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25254153989655", "-96.09458629909909", null, false ] ]
+, [ 536, "0C29C7D9-44BD-4E5F-B2F2-1B8794F20EC3", 536, 1333036797, "275812", 1333036808, "275812", "{\n}", "DINING ROOM AT UPRR (THE)", "SUPERIOR", "2010-06-14T00:00:00", [ "{\"address\":\"1400 DOUGLAS ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.258648930250104", "-95.93552568012956", null, false ] ]
+, [ 592, "5B7BBF63-A5D8-4B98-9AC2-DE635F51297F", 592, 1333036797, "275812", 1333036839, "275812", "{\n}", "DR J P LORD SCH CAFETERIA", "SUPERIOR", "2010-06-24T00:00:00", [ "{\"address\":\"330 SO 44 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25693122517413", "-95.978603205333", null, false ] ]
+, [ 599, "E7E480DF-1608-4F00-8373-D6176051BB81", 599, 1333036797, "275812", 1333036899, "275812", "{\n}", "DUNDEE SCHOOL", "SUPERIOR", "2011-05-12T00:00:00", [ "{\"address\":\"310 NO 52 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.261459071159834", "-95.99515171627175", null, false ] ]
+, [ 615, "55D77E85-0D48-4D77-BA2B-A03C23EFA952", 615, 1333036797, "275812", 1333036837, "275812", "{\n}", "EDISON ELEM SCHOOL", "SUPERIOR", "2011-06-13T00:00:00", [ "{\"address\":\"2303 NO 97 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.27999883522568", "-96.06462335743555", null, false ] ]
+, [ 634, "76B448B1-1D4C-4AD9-9417-7326F98F60D0", 634, 1333036797, "275812", 1333036850, "275812", "{\n}", "ELKHORN MIDDLE SCHOOL", "SUPERIOR", "2011-03-10T00:00:00", [ "{\"address\":\"3200 NO 207 PLZ\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.28476626152898", "-96.24008209848735", null, false ] ]
+, [ 636, "DC5B2C45-A16E-4AF4-8198-472B71D80C21", 636, 1333036797, "275812", 1333036893, "275812", "{\n}", "ELKHORN RIDGE MIDDLE SCHOOL", "SUPERIOR", "2010-12-01T00:00:00", [ "{\"address\":\"17880 MERCY RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 637, "6594976E-D0F6-4577-B270-1ACA42B2ACDB", 637, 1333036797, "275812", 1333036843, "275812", "{\n}", "ELKHORN SENIOR HIGH", "SUPERIOR", "2011-03-15T00:00:00", [ "{\"address\":\"1401 VETERANS DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.270550088374804", "-96.23054353167502", null, false ] ]
+, [ 639, "FCCC68E2-7F81-48B9-B53D-8AA90BC21735", 639, 1333036797, "275812", 1333036910, "275812", "{\n}", "ELKHORN WESTRIDGE ELEM", "SUPERIOR", "2011-03-03T00:00:00", [ "{\"address\":\"3100 NO 206 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.28652873695263", "-96.23782371379056", null, false ] ]
+, [ 665, "76CEF003-DB6B-4F2E-A86C-32EF5F28441F", 665, 1333036797, "275812", 1333036850, "275812", "{\n}", "EZRA MILLARD ELEMENTARY", "SUPERIOR", "2011-02-03T00:00:00", [ "{\"address\":\"14111 BLONDO ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.27760577516898", "-96.1337249689203", null, false ] ]
+, [ 707, "7B3F9DDD-C37A-46B1-B4A1-A9FAC1C36A0A", 707, 1333036797, "275812", 1333036853, "275812", "{\n}", "FIELD CLUB SCHOOL", "SUPERIOR", "2011-06-23T00:00:00", [ "{\"address\":\"3512 WALNUT ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.24241616762123", "-95.96495149692822", null, false ] ]
+, [ 713, "72C93B09-118D-46F6-B892-26AA8D35CDCB", 713, 1333036797, "275812", 1333036848, "275812", "{\n}", "FIRE RIDGE ELEM", "SUPERIOR", "2010-10-19T00:00:00", [ "{\"address\":\"19660 FARNAM ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.256648181145756", "-96.22406622483801", null, false ] ]
+, [ 738, "ACBF3E9C-1335-499D-9181-44F6246FA470", 738, 1333036797, "275812", 1333036873, "275812", "{\n}", "FRANKLIN SCHOOL CAFETERIA", "SUPERIOR", "2011-06-17T00:00:00", [ "{\"address\":\"3506 FRANKLIN ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.274658511536515", "-95.96467188073203", null, false ] ]
+, [ 747, "9ED7B0DE-19E7-488F-B047-9AB6D099B11E", 747, 1333036797, "275812", 1333036867, "275812", "{\n}", "FULLERTON MAGNET CENTER", "SUPERIOR", "2011-04-19T00:00:00", [ "{\"address\":\"4711 NO 138 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.30163946078686", "-96.13026504751451", null, false ] ]
+, [ 757, "09C4A56C-65BA-4CC8-A6A9-C03FD064EEC7", 757, 1333036797, "275812", 1333036807, "275812", "{\n}", "GENJI JAPANESE STEAKHOUSE", "SUPERIOR", "2011-06-06T00:00:00", [ "{\"address\":\"14529 W CENTER RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23375213546148", "-96.14130865579253", null, false ] ]
+, [ 758, "D935E0E7-7FBF-435D-A037-6FF270FEF24F", 758, 1333036797, "275812", 1333036892, "275812", "{\n}", "GEORGE NORRIS ELEM SCHOOL", "SUPERIOR", "2011-01-21T00:00:00", [ "{\"address\":\"12424 WEIR ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.2057508084867", "-96.1074580656911", null, false ] ]
+, [ 761, "6CA475BF-9ABD-41C0-9905-13B7D7DDF6D6", 761, 1333036797, "275812", 1333036846, "275812", "{\n}", "GEORGIA WHEELER ELEMENTARY", "SUPERIOR", "2011-02-07T00:00:00", [ "{\"address\":\"6707 SO 178 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.191271723814964", "-96.19453042456792", null, false ] ]
+, [ 766, "2F9E1518-C99E-48BB-967E-81C204938993", 766, 1333036797, "275812", 1333036822, "275812", "{\n}", "GILDER SCHOOL CAFETERIA", "SUPERIOR", "2011-04-27T00:00:00", [ "{\"address\":\"3705 CHANDLER RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 794, "C0EC047C-BAFE-4FAE-BD21-CA3D947054B9", 794, 1333036797, "275812", 1333036881, "275812", "{\n}", "GOMEZ ELEMENTARY", "SUPERIOR", "2010-10-28T00:00:00", [ "{\"address\":\"5101 SO 17\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 799, "C6F0933B-9FB7-4D40-A694-9AC5B17AE2F8", 799, 1333036797, "275812", 1333036884, "275812", "{\n}", "GRACE ABBOTT ELEMENTARY", "SUPERIOR", "2011-02-08T00:00:00", [ "{\"address\":\"1313 NO 156 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.271536214929995", "-96.15806291627979", null, false ] ]
+, [ 819, "70D0E0E6-21BB-4FBB-B68C-87B0953FA1A4", 819, 1333036797, "275812", 1333036848, "275812", "{\n}", "GRETCHEN REEDER ELEMENTARY", "SUPERIOR", "2011-02-24T00:00:00", [ "{\"address\":\"19202 CHANDLER ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 839, "39C3D1E1-DD64-41F8-B41B-26736C37786D", 839, 1333036797, "275812", 1333036826, "275812", "{\n}", "HARRISON SCHOOL CAFETERIA", "SUPERIOR", "2011-05-12T00:00:00", [ "{\"address\":\"5304 HAMILTON ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.27229164543462", "-95.99721917133951", null, false ] ]
+, [ 840, "094DE020-3125-49FD-8B72-B300E1A595BD", 840, 1333036797, "275812", 1333036807, "275812", "{\n}", "HARRY ANDERSEN MIDDLE SCHOOL", "SUPERIOR", "2011-02-18T00:00:00", [ "{\"address\":\"15404 ADAMS ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.19541759837006", "-96.15376415697978", null, false ] ]
+, [ 842, "61C4422B-5F4F-447B-8150-B5AFEBE27EF0", 842, 1333036797, "275812", 1333036841, "275812", "{\n}", "HARTMAN ELEMENTARY", "SUPERIOR", "2011-06-28T00:00:00", [ "{\"address\":\"5530 NO 66 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.30940666558382", "-96.01418937803243", null, false ] ]
+, [ 843, "57722F40-1A26-45B9-9A4D-EC2C83FEE24E", 843, 1333036797, "275812", 1333036838, "275812", "{\n}", "HARVEY OAKS ELEMENTARY", "SUPERIOR", "2011-02-15T00:00:00", [ "{\"address\":\"15228 SHIRLEY ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.240480899938994", "-96.1500933613545", null, false ] ]
+, [ 853, "68EE06D8-43E8-4B94-AC7B-87B0451DDE3D", 853, 1333036797, "275812", 1333036844, "275812", "{\n}", "HERMAN ROHWER ELEMENTARY", "SUPERIOR", "2011-02-08T00:00:00", [ "{\"address\":\"17701 F ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.21943848977264", "-96.1926238618658", null, false ] ]
+, [ 855, "CD30D816-38A3-45A5-9FC2-54AF87FA3522", 855, 1333036797, "275812", 1333036887, "275812", "{\n}", "HIGHLAND ELEMENTARY", "SUPERIOR", "2011-06-29T00:00:00", [ "{\"address\":\"2625 JEFFERSON ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.195651422097626", "-95.9526757512283", null, false ] ]
+, [ 856, "D8ECE088-8083-4749-B912-F2394A152BA4", 856, 1333036797, "275812", 1333036891, "275812", "{\n}", "HILLRISE ELEMENTARY", "SUPERIOR", "2011-03-02T00:00:00", [ "{\"address\":\"20110 HOPPER\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.289453381730745", "-96.22764145857658", null, false ] ]
+, [ 858, "03C11814-383D-4D4F-A09B-EBFE90FC63D5", 858, 1333036797, "275812", 1333036805, "275812", "{\n}", "HILLSIDE ELEMENTARY", "SUPERIOR", "2011-05-13T00:00:00", [ "{\"address\":\"7500 WESTERN AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.27053796747748", "-96.02930698134492", null, false ] ]
+, [ 869, "B51F88F1-3B4D-4169-B1BD-D864BF5A4317", 869, 1333036797, "275812", 1333036876, "275812", "{\n}", "HITCHCOCK ELEM SCHOOL", "SUPERIOR", "2011-02-28T00:00:00", [ "{\"address\":\"5809 SO 104 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.199482533942444", "-96.07599978110619", null, false ] ]
+, [ 875, "870C4A78-BF5D-4F5D-AAE9-8B1B6296F420", 875, 1333036797, "275812", 1333036858, "275812", "{\n}", "HOLLAND PERFORMING ARTS CENTER", "SUPERIOR", "2011-07-06T00:00:00", [ "{\"address\":\"1200 DOUGLAS\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25867730410725", "-95.93193103826886", null, false ] ]
+, [ 876, "5BFA8270-492E-41C8-B8AB-0BD4B0830C4F", 876, 1333036797, "275812", 1333036839, "275812", "{\n}", "HOLLING HEIGHTS ELEM SCHOOL", "SUPERIOR", "2011-02-17T00:00:00", [ "{\"address\":\"6565 SO 136 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.19411422315596", "-96.12684769061059", null, false ] ]
+, [ 894, "7CF368F9-9D4E-48F7-A864-B6AFB0C5D114", 894, 1333036797, "275812", 1333036854, "275812", "{\n}", "HORIZON HIGH SCHOOL", "SUPERIOR", "2011-02-24T00:00:00", [ "{\"address\":\"5300 GEORGE B LAKE PWY\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 905, "E66BFB78-F4A1-41D8-838B-12BB16169AE2", 905, 1333036797, "275812", 1333036899, "275812", "{\n}", "HUHOT MONGOLIAN GRILL", "SUPERIOR", "2011-02-16T00:00:00", [ "{\"address\":\"17660 WRIGHT ST # 14\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.232605427740395", "-96.19155064824088", null, false ] ]
+, [ 910, "68087EF7-73D6-4E23-80FB-A0E1B49E4B24", 910, 1333036797, "275812", 1333036844, "275812", "{\n}", "HY-VEE FOOD", "SUPERIOR", "2011-02-15T00:00:00", [ "{\"address\":\"14591 STONY BROOK BLVD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.199356535301945", "-96.14438427097373", null, false ] ]
+, [ 912, "69381AD5-E706-4256-BF6F-C24703DA6EC8", 912, 1333036797, "275812", 1333036844, "275812", "{\n}", "HY-VEE FOOD", "SUPERIOR", "2011-06-07T00:00:00", [ "{\"address\":\"8809 W CENTER RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23414032450374", "-96.05106509877342", null, false ] ]
+, [ 942, "D49D1DD8-EDB6-455A-B9F0-D51B9FC8AD1A", 942, 1333036797, "275812", 1333036889, "275812", "{\n}", "INDIAN HILL ELEM AND JR HI", "SUPERIOR", "2011-06-29T00:00:00", [ "{\"address\":\"3121 U ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20157795427076", "-95.95936670712626", null, false ] ]
+, [ 955, "7E515A16-B7BD-40D4-91F6-D39263201F6B", 955, 1333036797, "275812", 1333036855, "275812", "{\n}", "JACKSON ELEMENTARY SCHOOL", "SUPERIOR", "2011-06-23T00:00:00", [ "{\"address\":\"620 SO 31 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.253064140448146", "-95.95789181899823", null, false ] ]
+, [ 977, "806DFF4F-0D7B-4EA0-B816-FA1439EBD435", 977, 1333036797, "275812", 1333036856, "275812", "{\n}", "JEFFERSON SCHOOL CAFETERIA", "SUPERIOR", "2011-05-11T00:00:00", [ "{\"address\":\"4065 VINTON ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.227433462613135", "-95.97406162908504", null, false ] ]
+, [ 985, "F3D568A3-C547-4295-95CB-7B437A69F997", 985, 1333036797, "275812", 1333036907, "275812", "{\n}", "J G MASTERS SCH CAFETERIA", "SUPERIOR", "2011-06-07T00:00:00", [ "{\"address\":\"5505 NO 99 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.307688960507846", "-96.0669885743726", null, false ] ]
+, [ 1021, "918E50AC-F318-4B57-B9DD-698C1D569901", 1021, 1333036798, "275812", 1333036862, "275812", "{\n}", "JOHNNY'S ITALIAN STEAKHOUSE", "SUPERIOR", "2011-07-18T00:00:00", [ "{\"address\":\"305 NO 170\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 1031, "370AF568-2F91-4DBE-9DF8-0A07C703AD1F", 1031, 1333036798, "275812", 1333036825, "275812", "{\n}", "J STERLING-MORTON ELEM SCH.", "SUPERIOR", "2011-02-23T00:00:00", [ "{\"address\":\"1805 SO 160 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.24074342864674", "-96.16517655353158", null, false ] ]
+, [ 1042, "AD28F5FC-74C8-4BC9-A696-A3EB7A9010FB", 1042, 1333036798, "275812", 1333036873, "275812", "{\n}", "KAREN WESTERN ELEM SCHOOL", "SUPERIOR", "2011-04-18T00:00:00", [ "{\"address\":\"6224 H ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.21704629317469", "-96.0109608119472", null, false ] ]
+, [ 1048, "54F16B43-2C32-4813-A844-459E346911DF", 1048, 1333036798, "275812", 1333036837, "275812", "{\n}", "KELLOM SCHOOL CAFETERIA", "SUPERIOR", "2011-06-15T00:00:00", [ "{\"address\":\"1311 NO 24 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.27104158781384", "-95.94702800888427", null, false ] ]
+, [ 1063, "4F03729B-ED67-40F4-9B08-2BC06C6B5CE4", 1063, 1333036798, "275812", 1333036834, "275812", "{\n}", "KING PRIMARY", "SUPERIOR", "2011-06-27T00:00:00", [ "{\"address\":\"3706 MAPLE ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.28472027587952", "-95.96728973420443", null, false ] ]
+, [ 1064, "DD4A2508-F7B0-4DFE-A705-6F517AF8EE63", 1064, 1333036798, "275812", 1333036894, "275812", "{\n}", "KING SCIENCE CENTER", "SUPERIOR", "2010-12-14T00:00:00", [ "{\"address\":\"3720 FLORENCE BLVD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.293155916514365", "-95.94218066314636", null, false ] ]
+, [ 1072, "F1AABA7D-5CE9-4ACC-80BB-B330EDB41050", 1072, 1333036798, "275812", 1333036905, "275812", "{\n}", "KOBE STEAK HOUSE OF JAPAN", "SUPERIOR", "2011-04-26T00:00:00", [ "{\"address\":\"120 REGENCY PKWY\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.26004155118349", "-96.0696409762948", null, false ] ]
+, [ 1073, "CC853BEB-54E7-4807-9AA4-3FEE20705DCA", 1073, 1333036798, "275812", 1333036886, "275812", "{\n}", "KONA GRILL", "SUPERIOR", "2011-04-25T00:00:00", [ "{\"address\":\"295 NO 170 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.26076729047068", "-96.18137109495424", null, false ] ]
+, [ 1130, "1CBDAAB1-666A-4842-8A1D-1E1B0FD0D8CC", 1130, 1333036798, "275812", 1333036814, "275812", "{\n}", "LAURA DODGE SCHOOL", "SUPERIOR", "2011-06-13T00:00:00", [ "{\"address\":\"3520 MAPLEWOOD BLV\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.29031405890174", "-96.06438054048766", null, false ] ]
+, [ 1143, "E8818EE0-2700-4A90-A3E3-9B0BE5AFBE15", 1143, 1333036798, "275812", 1333036900, "275812", "{\n}", "LEWIS AND CLARK JR HIGH", "SUPERIOR", "2011-06-14T00:00:00", [ "{\"address\":\"6901 BURT ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.266886720038485", "-96.0216267712147", null, false ] ]
+, [ 1144, "64D9AFB0-9FB8-4EAE-902E-2EB32C8B3B19", 1144, 1333036798, "275812", 1333036842, "275812", "{\n}", "LIBERTY ELEMENTARY", "SUPERIOR", "2011-06-08T00:00:00", [ "{\"address\":\"2021 ST MARYS AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25418829298479", "-95.94385340212085", null, false ] ]
+, [ 1185, "0E917EC7-1F08-4BD0-A4B6-15A84DA15ADB", 1185, 1333036798, "275812", 1333036809, "275812", "{\n}", "LOVELAND SCHOOL", "SUPERIOR", "2011-05-02T00:00:00", [ "{\"address\":\"8100 PACIFIC ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.248874163250434", "-96.03936715729347", null, false ] ]
+, [ 1199, "198C65DA-162A-46A6-ACA7-A19B837DA559", 1199, 1333036798, "275812", 1333036813, "275812", "{\n}", "MANCHESTER ELEM SCHOOL", "SUPERIOR", "2011-03-03T00:00:00", [ "{\"address\":\"2750 CLEVELAND BLVD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 1210, "7AECBFC6-C674-42C7-900B-56E948328A7D", 1210, 1333036798, "275812", 1333036853, "275812", "{\n}", "MARI SANDOZ SCHOOL", "SUPERIOR", "2011-02-23T00:00:00", [ "{\"address\":\"5959 OAK HILLS DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.1984123407276", "-96.10663068942415", null, false ] ]
+, [ 1216, "8A2412A0-2889-4A9B-9AEB-9ED2F778E892", 1216, 1333036798, "275812", 1333036859, "275812", "{\n}", "MARRS ELEM AND JR HIGH", "SUPERIOR", "2011-06-23T00:00:00", [ "{\"address\":\"5619 SO 19 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.200372862751465", "-95.94042698518922", null, false ] ]
+, [ 1249, "7759B56F-CF78-4221-812C-B6E90E8AFC8F", 1249, 1333036798, "275812", 1333036850, "275812", "{\n}", "MCMILLAN JR HI SCHOOL CAF", "SUPERIOR", "2010-12-09T00:00:00", [ "{\"address\":\"3802 REDICK AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.31753653672865", "-95.9696999172429", null, false ] ]
+, [ 1250, "438DB3AD-FF30-4B5B-9D61-C408A3652A6E", 1250, 1333036798, "275812", 1333036830, "275812", "{\n}", "MEADOWS SCHOOL", "SUPERIOR", "2011-04-18T00:00:00", [ "{\"address\":\"9225 BERRY ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.19849327971025", "-96.05742878120117", null, false ] ]
+, [ 1262, "FFBEFBA6-32A8-476B-B40E-FD42AA34C97C", 1262, 1333036798, "275812", 1333036911, "275812", "{\n}", "MIDWEST NEURO SCIENCE CENTER", "SUPERIOR", "2011-02-10T00:00:00", [ "{\"address\":\"7915 FARNAM ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25784732941355", "-96.03605896214358", null, false ] ]
+, [ 1267, "50616155-2720-405E-A46D-C6424C118223", 1267, 1333036798, "275812", 1333036835, "275812", "{\n}", "MILLARD CENTRAL JR HIGH", "SUPERIOR", "2011-03-01T00:00:00", [ "{\"address\":\"12801 L ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.2124327711644", "-96.11360942837149", null, false ] ]
+, [ 1269, "2B98ED3B-A957-46E9-A094-4FA03A237372", 1269, 1333036798, "275812", 1333036820, "275812", "{\n}", "MILLARD NORTH HIGH SCHOOL", "SUPERIOR", "2011-03-18T00:00:00", [ "{\"address\":\"1010 SO 144 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25136442181281", "-96.13871849942956", null, false ] ]
+, [ 1270, "308B4D12-82C6-43B3-BAE7-08E07D00AE44", 1270, 1333036798, "275812", 1333036822, "275812", "{\n}", "MILLARD NORTH JUNIOR HIGH", "SUPERIOR", "2011-02-25T00:00:00", [ "{\"address\":\"2828 SO 139 PLZ\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.233178434564735", "-96.12941540257229", null, false ] ]
+, [ 1274, "7C227E0F-6718-47E3-864E-59EF27C1A741", 1274, 1333036798, "275812", 1333036854, "275812", "{\n}", "MILLARD SOUTH HIGH 9-10", "SUPERIOR", "2011-03-22T00:00:00", [ "{\"address\":\"14905 Q ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20538208645468", "-96.14602998752781", null, false ] ]
+, [ 1275, "980452C5-FAE8-4EE6-B7D0-3724A04A8279", 1275, 1333036798, "275812", 1333036864, "275812", "{\n}", "MILLARD WEST HIGH SCHOOL", "SUPERIOR", "2011-03-04T00:00:00", [ "{\"address\":\"5710 SO 176 AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20127218478075", "-96.19203030932647", null, false ] ]
+, [ 1281, "512EDE17-D72D-4563-A875-F7D604BA635C", 1281, 1333036798, "275812", 1333036836, "275812", "{\n}", "MINNE LUSA SCH. CAFETERIA", "SUPERIOR", "2011-06-20T00:00:00", [ "{\"address\":\"2728 IDA ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.32143060111554", "-95.95381789020547", null, false ] ]
+, [ 1287, "F8317E52-BE48-47DF-BD56-C0CC4A08DA39", 1287, 1333036798, "275812", 1333036909, "275812", "{\n}", "MOCKINGBIRD SCHOOL", "SUPERIOR", "2011-04-18T00:00:00", [ "{\"address\":\"9301 Q ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20529129079296", "-96.05638116096921", null, false ] ]
+, [ 1291, "61DF81FE-FEDC-4869-A29A-11434EAD8E49", 1291, 1333036798, "275812", 1333036841, "275812", "{\n}", "MONROE MIDDLE SCHOOL", "SUPERIOR", "2011-06-23T00:00:00", [ "{\"address\":\"5105 BEDFORD AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.28854153104527", "-95.99287527162117", null, false ] ]
+, [ 1292, "7FAEBAE2-7AC0-42AB-AEDA-F8968E255F42", 1292, 1333036798, "275812", 1333036855, "275812", "{\n}", "MONTCLAIR ELEM. SCHOOL", "SUPERIOR", "2011-02-23T00:00:00", [ "{\"address\":\"2405 SO 138 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.238288279506776", "-96.12849320795641", null, false ] ]
+, [ 1297, "E895B5EA-AECE-4D0D-922A-A3731065E214", 1297, 1333036798, "275812", 1333036900, "275812", "{\n}", "MOUNT VIEW SCHOOL CAFETERIA", "SUPERIOR", "2011-06-21T00:00:00", [ "{\"address\":\"5322 NO 52 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.30813862152252", "-95.99499784592712", null, false ] ]
+, [ 1315, "66F4FB18-6EE4-4506-882E-F094A2B309EF", 1315, 1333036798, "275812", 1333036843, "275812", "{\n}", "NATHAN HALE JR HI SCHOOL", "SUPERIOR", "2010-11-19T00:00:00", [ "{\"address\":\"6143 WHITMORE ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.32161945874168", "-96.00893733738127", null, false ] ]
+, [ 1349, "E6D96DAA-F7D9-4F11-9D2A-9C9A3FA14B9B", 1349, 1333036798, "275812", 1333036899, "275812", "{\n}", "NORMAN ROCKWELL ELEMENTARY", "SUPERIOR", "2011-03-01T00:00:00", [ "{\"address\":\"6370 SO 140 AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.19514368162909", "-96.13347987806287", null, false ] ]
+, [ 1353, "A5C9B39F-FCC5-4DE2-A9DE-1E2E4E345D11", 1353, 1333036798, "275812", 1333036870, "275812", "{\n}", "NORTHWEST SR HIGH", "SUPERIOR", "2011-05-09T00:00:00", [ "{\"address\":\"8204 CROWN POINT AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.31273415709222", "-96.04029669654301", null, false ] ]
+, [ 1361, "633C651C-0672-478A-AFC4-BD3B9ACEFDA2", 1361, 1333036798, "275812", 1333036842, "275812", "{\n}", "OAK VALLEY ELEM SCHOOL", "SUPERIOR", "2011-04-22T00:00:00", [ "{\"address\":\"3109 PEDERSEN DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.228552375983526", "-96.1086274025561", null, false ] ]
+, [ 1377, "E2AB9620-7756-43B1-9FA9-9AE045CCC153", 1377, 1333036798, "275812", 1333036896, "275812", "{\n}", "OLD COUNTRY BUFFET", "SUPERIOR", "2011-02-08T00:00:00", [ "{\"address\":\"14525 W CENTER RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23375105088503", "-96.14123128933947", null, false ] ]
+, [ 1402, "0A921596-5BD9-4BD4-8D06-B7C475B5D101", 1402, 1333036798, "275812", 1333036808, "275812", "{\n}", "OMAHA MARRIOTT HOTEL", "SUPERIOR", "2011-02-22T00:00:00", [ "{\"address\":\"10220 REGENCY CIR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.259851448126085", "-96.07333116598191", null, false ] ]
+, [ 1432, "26972936-DA75-4466-8E99-FE9136F5AD2E", 1432, 1333036798, "275812", 1333036818, "275812", "{\n}", "PADDOCK ROAD SCHOOL", "SUPERIOR", "2011-05-03T00:00:00", [ "{\"address\":\"3535 PADDOCK RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.22704675414053", "-96.05745576086201", null, false ] ]
+, [ 1480, "684E241A-67D4-4029-ADAF-9D32E846A8A5", 1480, 1333036798, "275812", 1333036844, "275812", "{\n}", "PAWNEE ELEM SCHOOL", "SUPERIOR", "2011-05-06T00:00:00", [ "{\"address\":\"7310 SO 48 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.18656860083694", "-95.98672374359055", null, false ] ]
+, [ 1496, "C7DFFD19-D2AC-4166-844F-F64D8C79FA94", 1496, 1333036798, "275812", 1333036884, "275812", "{\n}", "PETER KIEWIT MIDDLE SCHOOL", "SUPERIOR", "2011-02-15T00:00:00", [ "{\"address\":\"15650 HOWARD ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25506063535323", "-96.1590881433932", null, false ] ]
+, [ 1506, "447F76D8-046F-4D3E-835B-8EF7BA1601E4", 1506, 1333036799, "275812", 1333036830, "275812", "{\n}", "PICOTTE SCHOOL", "SUPERIOR", "2011-04-21T00:00:00", [ "{\"address\":\"14506 OHIO\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.28364648973332", "-96.14124247952896", null, false ] ]
+, [ 1508, "99A960DA-3F35-4F8B-B9E2-2D98E28E5E52", 1508, 1333036799, "275812", 1333036864, "275812", "{\n}", "PINE CREEK ELEM", "SUPERIOR", "2011-03-23T00:00:00", [ "{\"address\":\"7801 N HWS CLEVELAND\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 1509, "F50D943B-93B5-4224-932D-DF7E666A4838", 1509, 1333036799, "275812", 1333036907, "275812", "{\n}", "PINEWOOD ELEM", "SUPERIOR", "2011-06-14T00:00:00", [ "{\"address\":\"6306 REDICK AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 1533, "403BD2E5-59AA-473F-B349-EEC87EB0995D", 1533, 1333036799, "275812", 1333036828, "275812", "{\n}", "PONCA SCHOOL CAFETERIA", "SUPERIOR", "2011-05-10T00:00:00", [ "{\"address\":\"11300 NO POST RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.36268250259951", "-95.97565342907689", null, false ] ]
+, [ 1541, "6CDA3045-631B-4E5E-8AB0-CE4F8B960BE5", 1541, 1333036799, "275812", 1333036846, "275812", "{\n}", "PRAIRIE LANE ELEM SCHOOL", "SUPERIOR", "2011-04-26T00:00:00", [ "{\"address\":\"11444 HASCALL ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.22922397691019", "-96.09268760987402", null, false ] ]
+, [ 1545, "A0F6D667-6304-4BAD-B8C4-62FFBE6A8172", 1545, 1333036799, "275812", 1333036868, "275812", "{\n}", "PRAIRIE WIND ELEM SCHOOL", "SUPERIOR", "2011-06-09T00:00:00", [ "{\"address\":\"10908 ELLISON AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.31068370286539", "-96.08219610988806", null, false ] ]
+, [ 1570, "0AC0F3EC-1180-4C55-A015-57C949BE16E4", 1570, 1333036799, "275812", 1333036808, "275812", "{\n}", "RALSTON HIGH SCHOOL", "SUPERIOR", "2011-04-21T00:00:00", [ "{\"address\":\"8969 PARK DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.201434062746046", "-96.04991944225651", null, false ] ]
+, [ 1571, "081E51A3-D623-48CB-BA95-66C13B787927", 1571, 1333036799, "275812", 1333036807, "275812", "{\n}", "RALSTON MIDDLE SCHOOL", "SUPERIOR", "2011-04-19T00:00:00", [ "{\"address\":\"8302 LAKEVIEW ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20899952216766", "-96.0419400788817", null, false ] ]
+, [ 1616, "CBC092B0-D809-4334-AF56-69D40BC3F10B", 1616, 1333036799, "275812", 1333036885, "275812", "{\n}", "ROCKBROOK SCHOOL", "SUPERIOR", "2011-04-13T00:00:00", [ "{\"address\":\"2514 SO 108 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.235824137146494", "-96.08145866582402", null, false ] ]
+, [ 1629, "2777E3C9-7D13-4641-A76B-7BCC2960507E", 1629, 1333036799, "275812", 1333036818, "275812", "{\n}", "RONALD REAGAN ELEMENTARY", "SUPERIOR", "2011-02-09T00:00:00", [ "{\"address\":\"4440 SO 198 AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.215769255893065", "-96.22574589220494", null, false ] ]
+, [ 1632, "EFB2AF51-0402-458E-B294-2BE0E95DD400", 1632, 1333036799, "275812", 1333036904, "275812", "{\n}", "ROSEHILL ELEMENTARY SCHOOL", "SUPERIOR", "2011-06-14T00:00:00", [ "{\"address\":\"5605 CORBY ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.28407276401845", "-95.99997109674916", null, false ] ]
+, [ 1648, "6F9150CF-7FB7-40F8-9E57-0D119AF9BF59", 1648, 1333036800, "275812", 1333036847, "275812", "{\n}", "RUSSELL MIDDLE SCHOOL", "SUPERIOR", "2011-02-24T00:00:00", [ "{\"address\":\"5304 SO 172 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20442880510359", "-96.18342379750607", null, false ] ]
+, [ 1655, "205A9B56-9AFA-4904-95CD-CFFD4462021E", 1655, 1333036800, "275812", 1333036816, "275812", "{\n}", "SADDLEBROOK ELEM", "SUPERIOR", "2011-05-05T00:00:00", [ "{\"address\":\"14850 LAUREL ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.31027811015181", "-96.14687465338014", null, false ] ]
+, [ 1673, "E13ED088-5ADE-4E27-978B-EE5CBE72EF31", 1673, 1333036800, "275812", 1333036896, "275812", "{\n}", "SARAH JOSLYN CAFETERIA", "SUPERIOR", "2011-05-04T00:00:00", [ "{\"address\":\"11220 BLONDO ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.27777750981335", "-96.08653983528961", null, false ] ]
+, [ 1675, "38065A16-7E3F-4598-8A20-362EC1D33B70", 1675, 1333036800, "275812", 1333036825, "275812", "{\n}", "SARATOGA SCHOOL CAFETERIA", "SUPERIOR", "2011-06-22T00:00:00", [ "{\"address\":\"2504 MEREDITH AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.300305526647264", "-95.94746867667862", null, false ] ]
+, [ 1716, "BAE3ABBC-9CFE-4E22-A640-2F34DA603CA6", 1716, 1333036800, "275812", 1333036879, "275812", "{\n}", "SEYMOUR ELEM SCHOOL", "SUPERIOR", "2011-04-19T00:00:00", [ "{\"address\":\"7900 SEYMOUR ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.21084210100793", "-96.03675767989986", null, false ] ]
+, [ 1726, "6E9F6803-D59B-40DF-9BFE-DB7B0151592F", 1726, 1333036800, "275812", 1333036847, "275812", "{\n}", "SHERMAN SCHOOL CAFETERIA", "SUPERIOR", "2011-06-16T00:00:00", [ "{\"address\":\"5618 NO 14 AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.310036191004315", "-95.93495910725107", null, false ] ]
+, [ 1744, "C1094166-1F75-45E3-88B7-847709DC04DF", 1744, 1333036800, "275812", 1333036881, "275812", "{\n}", "SKYLINE ELEMENTARY", "SUPERIOR", "2011-03-10T00:00:00", [ "{\"address\":\"400 SO 210 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25473479588703", "-96.24373574751438", null, false ] ]
+, [ 1780, "F41780D6-782B-433D-8A7F-7D8B3885FC63", 1780, 1333036800, "275812", 1333036907, "275812", "{\n}", "SPRING LAKE SCHOOL", "SUPERIOR", "2011-06-13T00:00:00", [ "{\"address\":\"4215 SO 20 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.21827515250241", "-95.94166711300205", null, false ] ]
+, [ 1781, "F334FCFA-B243-409D-87D7-1E51065B58AB", 1781, 1333036800, "275812", 1333036906, "275812", "{\n}", "SPRING RIDGE ELEMENTARY", "SUPERIOR", "2011-03-04T00:00:00", [ "{\"address\":\"17830 SHADOW RIDGE DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.24503031069369", "-96.19416837153832", null, false ] ]
+, [ 1782, "EC89EB22-8BBF-4DEB-929B-C395E77BB507", 1782, 1333036800, "275812", 1333036901, "275812", "{\n}", "SPRINGVILLE SCH CAFETERIA", "SUPERIOR", "2011-05-10T00:00:00", [ "{\"address\":\"7300 NO 60 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.324827129619955", "-96.00472081682886", null, false ] ]
+, [ 1788, "2E1A92A3-02EC-4B5D-8F13-4EAA67083DC8", 1788, 1333036800, "275812", 1333036821, "275812", "{\n}", "STANDING BEAR ELEMENTARY", "SUPERIOR", "2011-04-14T00:00:00", [ "{\"address\":\"15660 TAYLOR ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.2978503775073", "-96.15926800779908", null, false ] ]
+, [ 1800, "046993DF-F4A1-4FF7-8AF1-EBCD3BAF3E00", 1800, 1333036800, "275812", 1333036805, "275812", "{\n}", "ST BERNARD'S SCH CAFETERIA", "SUPERIOR", "2011-03-10T00:00:00", [ "{\"address\":\"3604 NO 65 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.29133928601516", "-96.01188711363739", null, false ] ]
+, [ 1806, "A962E02C-2ECA-4427-9642-A04871F82ED5", 1806, 1333036800, "275812", 1333036872, "275812", "{\n}", "ST JAMES SETON SCHOOL", "SUPERIOR", "2011-03-08T00:00:00", [ "{\"address\":\"4720 NO 90 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.30170846901302", "-96.05270734054733", null, false ] ]
+, [ 1808, "0916B255-3D35-4B75-A6EE-45C055704D59", 1808, 1333036800, "275812", 1333036807, "275812", "{\n}", "ST MARGARET MARY SCHOOL", "SUPERIOR", "2011-05-12T00:00:00", [ "{\"address\":\"123 NO 61 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.2614857065508", "-96.00581147389781", null, false ] ]
+, [ 1817, "8B45533D-7A09-4117-B740-16773BC1049E", 1817, 1333036800, "275812", 1333036859, "275812", "{\n}", "ST PATRICKS SCHOOL", "SUPERIOR", "2011-03-15T00:00:00", [ "{\"address\":\"20500 W MAPLE RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.29207759353801", "-96.23540702610983", null, false ] ]
+, [ 1822, "658320B0-7DEF-44EC-B2E8-01C76F1C69CD", 1822, 1333036800, "275812", 1333036843, "275812", "{\n}", "ST ROBERT BELLARMINE SCH", "SUPERIOR", "2011-04-08T00:00:00", [ "{\"address\":\"11900 PACIFIC ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.2486664557249", "-96.0986267233634", null, false ] ]
+, [ 1825, "15E37168-E7AE-4FB5-A8E5-A0869F7FE118", 1825, 1333036800, "275812", 1333036812, "275812", "{\n}", "STS PETER AND PAUL SCHOOL", "SUPERIOR", "2011-03-17T00:00:00", [ "{\"address\":\"3619 X ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.19904100268934", "-95.96782071229994", null, false ] ]
+, [ 1827, "525980C1-44EF-4CAF-BAD0-72FF595AD3C1", 1827, 1333036800, "275812", 1333036836, "275812", "{\n}", "ST STEPHEN THE MARTYR", "SUPERIOR", "2010-12-07T00:00:00", [ "{\"address\":\"16701 SO ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20390080230623", "-96.17516232629197", null, false ] ]
+, [ 1828, "3D29052B-3895-447E-AAF7-BB7832C16E0C", 1828, 1333036800, "275812", 1333036827, "275812", "{\n}", "ST THOMAS MORE SCHOOL", "SUPERIOR", "2011-05-13T00:00:00", [ "{\"address\":\"3515 SO 48 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.226772351981275", "-95.9853937760999", null, false ] ]
+, [ 1831, "FAFB0DD2-DAFF-4EEE-89E8-F9411A75D1C8", 1831, 1333036800, "275812", 1333036909, "275812", "{\n}", "ST WENCESLAUS SCHOOL", "SUPERIOR", "2010-12-07T00:00:00", [ "{\"address\":\"15353 PACIFIC ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.248513570979924", "-96.15376415697978", null, false ] ]
+, [ 1877, "59AF9684-95A0-4839-A644-3987FD2368B0", 1877, 1333036800, "275812", 1333036839, "275812", "{\n}", "SUNNY SLOPE SCHOOL", "SUPERIOR", "2011-05-05T00:00:00", [ "{\"address\":\"10829 OLD MAPLE RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.294468370027566", "-96.08190571000502", null, false ] ]
+, [ 1880, "BDE0027D-F382-4D90-BBCC-A052AC3774F6", 1880, 1333036800, "275812", 1333036880, "275812", "{\n}", "SUNSET HILLS SCHOOLS", "SUPERIOR", "2011-05-03T00:00:00", [ "{\"address\":\"9400 WALNUT ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 1893, "A5E7102A-61E6-488E-BEED-C94E1296F867", 1893, 1333036800, "275812", 1333036870, "275812", "{\n}", "SWANSON SCHOOL", "SUPERIOR", "2011-05-02T00:00:00", [ "{\"address\":\"8600 HARNEY ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25735909744148", "-96.04565228181374", null, false ] ]
+, [ 2027, "35E0947C-71C8-4EE9-B226-8F624C4BB5C8", 2027, 1333036801, "275812", 1333036824, "275812", "{\n}", "UPCHURCH ELEM", "SUPERIOR", "2011-02-18T00:00:00", [ "{\"address\":\"8686 SO 165 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.17357306627832", "-96.17219126536014", null, false ] ]
+, [ 2029, "D9A1E623-403E-4F8C-B9B9-3989BF16F3DD", 2029, 1333036801, "275812", 1333036892, "275812", "{\n}", "UPSTREAM BREWING COMPANY WEST", "SUPERIOR", "2011-07-12T00:00:00", [ "{\"address\":\"17070 WRIGHT PLZ\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23305422529626", "-96.1814362958213", null, false ] ]
+, [ 2034, "2865F02F-4AA2-4AF0-989A-D7859D279D06", 2034, 1333036801, "275812", 1333036818, "275812", "{\n}", "UTA HALEE", "SUPERIOR", "2011-06-27T00:00:00", [ "{\"address\":\"10625 CALHOUN RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.356243356869754", "-95.97790173415012", null, false ] ]
+, [ 2074, "D5544370-BEE8-4448-9E68-F60D457CFBCF", 2074, 1333036801, "275812", 1333036890, "275812", "{\n}", "V MERTZ RESTAURANT", "SUPERIOR", "2011-02-15T00:00:00", [ "{\"address\":\"1022 HOWARD ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.255502166606334", "-95.92956519766393", null, false ] ]
+, [ 2106, "9DDD39CE-BEF4-4A25-9658-12B29FDD13CF", 2106, 1333036801, "275812", 1333036866, "275812", "{\n}", "WALNUT HILL SCHOOL", "SUPERIOR", "2011-06-15T00:00:00", [ "{\"address\":\"4370 HAMILTON ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.27218372679107", "-95.98021299176543", null, false ] ]
+, [ 2107, "6E0B4D3B-BDD5-4FE2-821A-271B91535314", 2107, 1333036801, "275812", 1333036847, "275812", "{\n}", "WALT DISNEY ELEM SCHOOL", "SUPERIOR", "2011-02-17T00:00:00", [ "{\"address\":\"5717 SO 112 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20058896847685", "-96.08816821429355", null, false ] ]
+, [ 2109, "3D42FE23-78B0-471A-8F4B-2EF26FD32378", 2109, 1333036801, "275812", 1333036828, "275812", "{\n}", "WASHINGTON SCHOOL", "SUPERIOR", "2011-06-14T00:00:00", [ "{\"address\":\"5519 MAYBERRY ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25054603876612", "-95.99812748658911", null, false ] ]
+, [ 2125, "E0206E80-4692-430F-A446-423DA16E6E14", 2125, 1333036801, "275812", 1333036895, "275812", "{\n}", "WEST DODGE STATION ELEM", "SUPERIOR", "2011-03-04T00:00:00", [ "{\"address\":\"18480 CALIFORNIA ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 2128, "4E33A819-C136-4045-8F78-9538EF6FE53E", 2128, 1333036801, "275812", 1333036834, "275812", "{\n}", "WESTERN HILLS SCH CAFETERIA", "SUPERIOR", "2011-05-09T00:00:00", [ "{\"address\":\"6523 WESTERN AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.27051098781658", "-96.0126605305826", null, false ] ]
+, [ 2129, "94D4C266-C674-4B4D-A81B-EAF72FFDFEC3", 2129, 1333036801, "275812", 1333036863, "275812", "{\n}", "WESTGATE ELEM SCHOOL", "SUPERIOR", "2011-05-03T00:00:00", [ "{\"address\":\"7802 HASCALL ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23025733378512", "-96.03373164572912", null, false ] ]
+, [ 2136, "B85E5EE6-19CD-4C55-8DFF-BF0DF5527CCB", 2136, 1333036801, "275812", 1333036878, "275812", "{\n}", "WESTSIDE HIGH SCHOOL", "SUPERIOR", "2011-03-24T00:00:00", [ "{\"address\":\"8700 PACIFIC ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.24885617680985", "-96.04708648793198", null, false ] ]
+, [ 2146, "0F16E63D-45E7-417F-BAF3-9519612B176E", 2146, 1333036801, "275812", 1333036809, "275812", "{\n}", "WILDWOOD SCHOOL", "SUPERIOR", "2011-04-15T00:00:00", [ "{\"address\":\"8545 PARK DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20138823318581", "-96.0456450709131", null, false ] ]
+, [ 2147, "9135320D-EFCB-45C8-969D-89E1986965C7", 2147, 1333036801, "275812", 1333036862, "275812", "{\n}", "WILLA CATHER ELEM SCHOOL", "SUPERIOR", "2011-02-25T00:00:00", [ "{\"address\":\"3030 SO 139 PLZ\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23148041174494", "-96.12920367235955", null, false ] ]
+, [ 2148, "6BAAD642-639B-45EA-9063-A571A4551ED4", 2148, 1333036801, "275812", 1333036846, "275812", "{\n}", "WILLIAM CODY ELEM SCHOOL", "SUPERIOR", "2011-03-01T00:00:00", [ "{\"address\":\"3320 SO 127 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.22741416878407", "-96.11296783207528", null, false ] ]
+, [ 2149, "253E56DD-CCE0-4A8D-9E48-9CA54DCAA01E", 2149, 1333036801, "275812", 1333036817, "275812", "{\n}", "WILLIAM J BRYAN ELEM SCHOOL", "SUPERIOR", "2011-02-15T00:00:00", [ "{\"address\":\"5010 SO 144 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.210307969826715", "-96.1389380824897", null, false ] ]
+, [ 2151, "B2AE1F13-069C-4D71-ACCC-F51144F0F055", 2151, 1333036801, "275812", 1333036875, "275812", "{\n}", "WILLOWDALE ELEMENTARY SCHOOL", "SUPERIOR", "2011-02-09T00:00:00", [ "{\"address\":\"16901 P ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20675804915953", "-96.17868437041164", null, false ] ]
+, [ 2152, "3D5F3CBA-2CB5-4293-9742-C3648B062312", 2152, 1333036801, "275812", 1333036828, "275812", "{\n}", "WILSON MIDDLE SCHOOL", "SUPERIOR", "2010-11-15T00:00:00", [ "{\"address\":\"5141 F ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.2197442592626", "-95.99441328660811", null, false ] ]
+ ]
+}
