@@ -153,20 +153,20 @@ new = function ()
 
              lblLeftName.text = MatchUp["restaurant_1"]["name"] 
              lblLeftName.x = display.contentWidth / 2
-             lblLeftName.y = 234
+             lblLeftName.y = 590
 
              lblLeftAddress.text = MatchUp["restaurant_1"]["address"]
              lblLeftAddress.x = display.contentWidth / 2
-             lblLeftAddress.y = 270
+             lblLeftAddress.y = 628
 
 
              lblRightName.text = MatchUp["restaurant_2"]["name"] 
              lblRightName.x = display.contentWidth / 2
-             lblRightName.y = 590
+             lblRightName.y = 234
 
              lblRightAddress.text = MatchUp["restaurant_2"]["address"]
              lblRightAddress.x = display.contentWidth / 2
-             lblRightAddress.y = 628
+             lblRightAddress.y = 270
            end
 
         end
