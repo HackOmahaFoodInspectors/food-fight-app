@@ -1,0 +1,722 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[GPS data]]></name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Snippet><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=1334423863">GPS Visualizer</A>]]></Snippet>
+    <Style id="gv_waypoint_normal">
+      <IconStyle>
+        <color>FFFFFFFF</color>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>FFFFFFFF</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<p align="left" style="white-space:nowrap;"><font size="+1"><b>$[name]</b></font></p> <p align="left">$[description]</p>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_waypoint_highlight">
+      <IconStyle>
+        <color>FFFFFFFF</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>FFFFFFFF</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<p align="left" style="white-space:nowrap;"><font size="+1"><b>$[name]</b></font></p> <p align="left">$[description]</p>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="gv_waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#gv_waypoint_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#gv_waypoint_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>ALL AMERICAN PROPERTIES</name>
+        <description><![CDATA[4219 NO 60 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.004635733,41.297544173,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>AMIGO'S</name>
+        <description><![CDATA[8412 WEST DODGE RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.043399358,41.261994408,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>APPLE BUFFET</name>
+        <description><![CDATA[5352 SO 136 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.124681404,41.203461865,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BARLEY'S TIP TOP</name>
+        <description><![CDATA[1502 CUMING ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.935936753,41.268003183,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BILLY'S MIRACLE HILLS CAF&#201;</name>
+        <description><![CDATA[627 NO 114 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.090938101,41.26506047,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BLACK SEA RESTAURANT</name>
+        <description><![CDATA[2230 FARNAM ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.945794496,41.25763356,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BROWN DERBY INC</name>
+        <description><![CDATA[4036 SO 24 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.947028009,41.219861171,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CAKE GALLERY (THE)</name>
+        <description><![CDATA[8247 HASCALL ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.04081026,41.230203102,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CANIGLIAS VENICE INN</name>
+        <description><![CDATA[6920 PACIFIC ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.021186103,41.248747395,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CAPPY'S</name>
+        <description><![CDATA[5059 SO 108 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.081431686,41.206641137,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CARNICERIA EL PUEBUTO</name>
+        <description><![CDATA[5023 SO 24 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.946986779,41.207962623,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CAROL HOTEL</name>
+        <description><![CDATA[4888 SO 118 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.098806588,41.20935709,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHINA SONG CUISINE</name>
+        <description><![CDATA[4210 SO 50 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.990437946,41.217063775,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHINA STAR BUFFET</name>
+        <description><![CDATA[9527-29 Q ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CILANTROS</name>
+        <description><![CDATA[14440 F ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.139545876,41.219591375,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CLANCY'S PUB</name>
+        <description><![CDATA[777 NO 114 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.092324403,41.267525341,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CUMING FOOD MART</name>
+        <description><![CDATA[4002 CUMING ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.973513043,41.26794792,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DOC'S BAR &amp; GRILL</name>
+        <description><![CDATA[4303 SO 89 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.048984147,41.217450988,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DOWNTOWN FOOD MART</name>
+        <description><![CDATA[318 SO 16 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.937253359,41.257363801,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DUNDEE DELL</name>
+        <description><![CDATA[5002 UNDERWOOD AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.990815998,41.265079083,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DUNN DEAL</name>
+        <description><![CDATA[2310 NO 16TH ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.937441236,41.280286618,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL ALAMO</name>
+        <description><![CDATA[4917 SO 24 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.947063982,41.209114273,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EL TAQUERA PELIGRO</name>
+        <description><![CDATA[5133 SO 25 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.948547863,41.206092551,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FAMILY FUN CENTER</name>
+        <description><![CDATA[7052 DODGE ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.021770663,41.259638184,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FOX &amp; HOUND ENG PUB &amp; GRILL</name>
+        <description><![CDATA[506 NO 120 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.100642193,41.263554054,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FOX &amp; HOUND ENG PUB &amp; GRILL</name>
+        <description><![CDATA[17602 WRIGHT]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.182079803,41.232776915,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GLOBAL FOODS INC</name>
+        <description><![CDATA[1533 NO SADDLE CREEK]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GODFATHER'S PIZZA</name>
+        <description><![CDATA[6305 AMES AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.009656795,41.299469157,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GYRO AND MORE</name>
+        <description><![CDATA[10000 CALIFORNIA	"zip":"}]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.067011028,41.264523029,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HELADOS SANTA FE</name>
+        <description><![CDATA[4218 SO 50 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.990441756,41.21698757,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HONG KONG CAFE</name>
+        <description><![CDATA[664 NO 114 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.091035816,41.265744097,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>INDIAN GROCERY</name>
+        <description><![CDATA[3029 SO 83 PLZ]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.041905531,41.232090643,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>INTERNATIONAL BUFFET</name>
+        <description><![CDATA[4827 L ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.987249511,41.212483274,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JACK &amp; MARY'S RESTAURANT</name>
+        <description><![CDATA[655 NO 114 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.090904917,41.265558898,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JADE GARDEN</name>
+        <description><![CDATA[2068 NO 117 AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.098301995,41.278326834,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JOE'S CAF&#201;</name>
+        <description><![CDATA[6564 MAPLE ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.013712737,41.285017052,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KNOLLS GOLF COURSE</name>
+        <description><![CDATA[11630 SAHLER]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.094744104,41.296963552,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KUM &amp; GO #348</name>
+        <description><![CDATA[12011 BLONDO ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.101126839,41.277615632,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KURRY EXPRESS</name>
+        <description><![CDATA[10841 Q ST #105]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.083563079,41.205292154,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA CHIRIPA</name>
+        <description><![CDATA[1920 VINTON ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.941497178,41.231597324,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA CHIRIPA MOBLE UNIT</name>
+        <description><![CDATA[1920 VINTON ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.941497178,41.231597324,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA FLOR DE MEXICO</name>
+        <description><![CDATA[4808 SO 24 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.947063982,41.210706073,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LA FONDITA</name>
+        <description><![CDATA[2411 I ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.947621561,41.216084019,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LALIBELA</name>
+        <description><![CDATA[4422 CASS ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.980311917,41.263900971,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOUIS BEER-LIQUOR MARKET</name>
+        <description><![CDATA[5702 NW RADIAL HWY]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.00101431,41.284999066,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OAK HILLS COUNTRY CLUB</name>
+        <description><![CDATA[12325 GOLFING GREEN DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.105497174,41.196063597,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OLEAVER'S PUB</name>
+        <description><![CDATA[1322 SO SADDLE CREEK RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.989493995,41.24596849,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OMAHA TROPICAL MARKET</name>
+        <description><![CDATA[2322 NO 72 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.023967224,41.279821396,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OPEN DOOR MISSION</name>
+        <description><![CDATA[2706 NO 21 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.944160126,41.234109631,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>QUALITY INN &amp; SUITES</name>
+        <description><![CDATA[11515 MIRACLE HILLS DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.094822591,41.268136778,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RICE BOWL</name>
+        <description><![CDATA[505 NO SADDLE CREEK RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.980815538,41.264332645,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RICHIE'S CHICKEN &amp; RIBS</name>
+        <description><![CDATA[3528 CENTER ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.964951497,41.241525839,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RIVER CITY SALOON</name>
+        <description><![CDATA[1802 VINTON ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.939806453,41.23345892,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ROMAN COIN PIZZA</name>
+        <description><![CDATA[9735 Q STREET]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.064618921,41.205289723,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RYAN'S BISTRO</name>
+        <description><![CDATA[17607 GOLD PLZ]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.190717299,41.235086693,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SCOOTERS COFFEE HOUSE</name>
+        <description><![CDATA[2875 SO 132 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.119346783,41.232571989,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SCOOTERS JAVA EXPRESS</name>
+        <description><![CDATA[10000 CALIFORNIA]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.067011028,41.264523029,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SEASON BUFFET</name>
+        <description><![CDATA[7415 DODGE PLZ]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.028920511,41.259629456,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SHARK CLUB (THE)</name>
+        <description><![CDATA[2808 SO 72 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.023893063,41.233018252,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SKEETS RIBS</name>
+        <description><![CDATA[2201 NO 24 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.947045995,41.278955622,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>STOYSICH HOUSE OF SAUSAGE</name>
+        <description><![CDATA[2532 SO 24 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.947045995,41.234376229,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SUPER BEE MART</name>
+        <description><![CDATA[2611 ST MARYS AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.950077873,41.253651974,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TAQUERIA EL REY</name>
+        <description><![CDATA[5201 SO 24 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.947000107,41.205534162,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TAQUERIA TIJUANA</name>
+        <description><![CDATA[5139 SO 24 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.947072975,41.205768795,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>THAI SPICE</name>
+        <description><![CDATA[555 NO 155 PLZ]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.156383943,41.263703485,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TOBACCO &amp; PHONES 4 LESS</name>
+        <description><![CDATA[4108 DODGE ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.974897999,41.259647178,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TOKYO KITCHEN</name>
+        <description><![CDATA[14132 ARBOR ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.135884291,41.23595459,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>TWO FINE IRISHMEN</name>
+        <description><![CDATA[18101 R PLZ STE 108]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.199009048,41.204356859,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VARSITY SPORTS CAF&#201;/ROMAN COIN PIZZA</name>
+        <description><![CDATA[14529 F ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.140670028,41.219582381,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>VILLAGE GRINDER</name>
+        <description><![CDATA[8706 PACIFIC ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.047462157,41.248856177,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WALGREENS #05741</name>
+        <description><![CDATA[3001 DODGE ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.956659748,41.259719123,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WASABI SUSHI</name>
+        <description><![CDATA[14513 W MAPLE RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.141272574,41.292085723,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WHEATFIELD'S EATERY-BAKERY</name>
+        <description><![CDATA[1202 HOWARD ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.932189195,41.255447344,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WINCHESTER BAR</name>
+        <description><![CDATA[7002 Q ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.020439666,41.205274168,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

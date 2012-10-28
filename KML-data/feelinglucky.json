@@ -1,0 +1,264 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "zcsc-3cse",
+      "name" : "Food Inspections",
+      "averageRating" : 0,
+      "category" : "Government",
+      "description" : "Recent food safety inspections. Shows date of inspection, name of eatery and rating.",
+      "displayType" : "table",
+      "licenseId" : "OPEN_DATABASE_LICENSE",
+      "numberOfComments" : 0,
+      "oid" : 0,
+      "publicationAppendEnabled" : false,
+      "publicationStage" : "unpublished",
+      "rowsUpdatedAt" : 1333037204,
+      "rowsUpdatedBy" : "j76h-ry9j",
+      "signed" : false,
+      "tableId" : 307242,
+      "totalTimesRated" : 0,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : "meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 7099194,
+        "name" : "RestaurantName",
+        "dataTypeName" : "text",
+        "description" : "Name of eatery. Not only restaurants are included, but school cafeterias, bowling alleys... anywhere with a kitchen.",
+        "fieldName" : "restaurantname",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2399726,
+        "width" : 268,
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 7099195,
+        "name" : "Rating",
+        "dataTypeName" : "text",
+        "description" : "Superior - The establishment understands and routinely corrects sanitation deficiencies on a day-to-day basis and does not wait for a health inspection before doing so. in addition, at least 75 percent of employees and management of a superior food establ",
+        "fieldName" : "rating",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 2399727,
+        "width" : 172,
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 7099249,
+        "name" : "InspectionDate",
+        "dataTypeName" : "calendar_date",
+        "description" : "Date the inspection was performed.",
+        "fieldName" : "inspectiondate",
+        "position" : 4,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 2399728,
+        "width" : 268,
+        "format" : {
+          "align" : "left"
+        }
+      }, {
+        "id" : 7099197,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 5,
+        "renderTypeName" : "location",
+        "tableColumnId" : 2399729,
+        "width" : 220,
+        "format" : {
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : true,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Open Database License"
+      },
+      "metadata" : {
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "query" : {
+        "orderBys" : [ {
+          "ascending" : false,
+          "expression" : {
+            "columnId" : 7099195,
+            "type" : "column"
+          }
+        } ]
+      },
+      "rights" : [ "read" ],
+      "sortBys" : [ {
+        "id" : 0,
+        "viewColumnId" : 7099195
+      } ],
+      "tableAuthor" : {
+        "id" : "j76h-ry9j",
+        "displayName" : "Matt Wynn",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileLastModified" : 1331836815,
+        "roleName" : "publisher",
+        "screenName" : "Matt Wynn",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "edit_pages" ]
+      },
+      "tags" : [ "food", "safety", "health" ],
+      "flags" : [ "unsaved" ]
+    }
+  },
+  "data" : [ [ 42, "E9A2E4B3-A887-4BF2-96E9-2629A67B86CE", 42, 1333036796, "275812", 1333036900, "275812", "{\n}", "ALL AMERICAN PROPERTIES", "FAIR", "2011-02-17T00:00:00", [ "{\"address\":\"4219 NO 60 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.29754417294296", "-96.00463573310805", null, false ] ]
+, [ 57, "4907D89E-D6E9-487F-8890-A5612E3F4917", 57, 1333036796, "275812", 1333036832, "275812", "{\n}", "AMIGO'S", "FAIR", "2011-07-28T00:00:00", [ "{\"address\":\"8412 WEST DODGE RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.26199440819909", "-96.04339935754405", null, false ] ]
+, [ 76, "95C29638-1E8F-4EE4-957C-E9F0232A13B4", 76, 1333036796, "275812", 1333036864, "275812", "{\n}", "APPLE BUFFET", "FAIR", "2010-04-28T00:00:00", [ "{\"address\":\"5352 SO 136 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.203461864655786", "-96.12468140448863", null, false ] ]
+, [ 144, "460810B8-04E8-404B-B2D1-189F6C2518AD", 144, 1333036796, "275812", 1333036831, "275812", "{\n}", "BARLEY'S TIP TOP", "FAIR", "2010-05-10T00:00:00", [ "{\"address\":\"1502 CUMING ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.26800318258563", "-95.93593675267383", null, false ] ]
+, [ 195, "D676AF90-29FA-48F5-A3FA-DFD185FE6FE2", 195, 1333036796, "275812", 1333036890, "275812", "{\n}", "BILLY'S MIRACLE HILLS CAFÉ", "FAIR", "2011-03-03T00:00:00", [ "{\"address\":\"627 NO 114 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.26506047016374", "-96.09093810087977", null, false ] ]
+, [ 201, "82ED8BB4-7393-482D-B1B9-2FD233C3DE3A", 201, 1333036796, "275812", 1333036856, "275812", "{\n}", "BLACK SEA RESTAURANT", "FAIR", "2011-05-16T00:00:00", [ "{\"address\":\"2230 FARNAM ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.257633559815815", "-95.94579449627408", null, false ] ]
+, [ 265, "29A4E5F3-3E1E-41AA-A534-A413ECC609FF", 265, 1333036796, "275812", 1333036819, "275812", "{\n}", "BROWN DERBY INC", "FAIR", "2010-09-14T00:00:00", [ "{\"address\":\"4036 SO 24 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.21986117112641", "-95.94702800888427", null, false ] ]
+, [ 335, "351B7FA2-5A7F-4CB3-9F4C-DC5752845010", 335, 1333036796, "275812", 1333036824, "275812", "{\n}", "CAKE GALLERY (THE)", "FAIR", "2011-05-18T00:00:00", [ "{\"address\":\"8247 HASCALL ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23020310246583", "-96.0408102602124", null, false ] ]
+, [ 345, "F4452731-5D0E-4F01-837E-A3474B1BAA31", 345, 1333036796, "275812", 1333036907, "275812", "{\n}", "CANIGLIAS VENICE INN", "FAIR", "2011-04-27T00:00:00", [ "{\"address\":\"6920 PACIFIC ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.24874739470749", "-96.02118610342035", null, false ] ]
+, [ 350, "DE30674D-3D1C-4332-89B7-A4082B8F361D", 350, 1333036796, "275812", 1333036894, "275812", "{\n}", "CAPPY'S", "FAIR", "2011-02-09T00:00:00", [ "{\"address\":\"5059 SO 108 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20664113729572", "-96.08143168616317", null, false ] ]
+, [ 354, "ACC8B624-F100-4B45-8ED6-0D87608761D6", 354, 1333036796, "275812", 1333036873, "275812", "{\n}", "CARNICERIA EL PUEBUTO", "FAIR", "2010-08-24T00:00:00", [ "{\"address\":\"5023 SO 24 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.2079626227725", "-95.9469867792448", null, false ] ]
+, [ 357, "E6AA18F1-6D2E-480B-A1E1-4BBA2E089FF9", 357, 1333036796, "275812", 1333036899, "275812", "{\n}", "CAROL HOTEL", "FAIR", "2011-08-02T00:00:00", [ "{\"address\":\"4888 SO 118 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20935708982421", "-96.09880658776922", null, false ] ]
+, [ 401, "884595E5-7AB0-4ABE-AE58-DA7C2A0BB1A3", 401, 1333036796, "275812", 1333036858, "275812", "{\n}", "CHINA SONG CUISINE", "FAIR", "2011-06-24T00:00:00", [ "{\"address\":\"4210 SO 50 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.217063774834564", "-95.9904379457542", null, false ] ]
+, [ 402, "B4A8519A-86AD-4A29-8B5D-DB870FA7590D", 402, 1333036796, "275812", 1333036876, "275812", "{\n}", "CHINA STAR BUFFET", "FAIR", "2010-03-19T00:00:00", [ "{\"address\":\"9527-29 Q ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 418, "E937AB42-9F5B-4109-82CE-E18BD8CB2289", 418, 1333036796, "275812", 1333036900, "275812", "{\n}", "CILANTROS", "FAIR", "2011-03-29T00:00:00", [ "{\"address\":\"14440 F ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.21959137451762", "-96.13954587569651", null, false ] ]
+, [ 421, "016E1218-7450-49F4-ABC7-E20C4AA2D67D", 421, 1333036796, "275812", 1333036804, "275812", "{\n}", "CLANCY'S PUB", "FAIR", "2011-04-05T00:00:00", [ "{\"address\":\"777 NO 114 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.26752534084197", "-96.09232440283883", null, false ] ]
+, [ 500, "A58C51DD-26C5-4CFD-A55D-A35370015247", 500, 1333036796, "275812", 1333036870, "275812", "{\n}", "CUMING FOOD MART", "FAIR", "2010-01-28T00:00:00", [ "{\"address\":\"4002 CUMING ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.267947920033066", "-95.97351304264714", null, false ] ]
+, [ 547, "6F16D337-6BED-476D-8EAC-E9A882891D7A", 547, 1333036797, "275812", 1333036847, "275812", "{\n}", "DOC'S BAR & GRILL", "FAIR", "2011-07-21T00:00:00", [ "{\"address\":\"4303 SO 89 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.217450988087876", "-96.048984147346", null, false ] ]
+, [ 585, "1D8507CD-F97C-408C-90FA-D8713D0B8279", 585, 1333036797, "275812", 1333036814, "275812", "{\n}", "DOWNTOWN FOOD MART", "FAIR", "2010-03-03T00:00:00", [ "{\"address\":\"318 SO 16 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25736380089815", "-95.9372533587132", null, false ] ]
+, [ 597, "B2E14045-2563-4041-A07D-5CADAF6154DE", 597, 1333036797, "275812", 1333036875, "275812", "{\n}", "DUNDEE DELL", "FAIR", "2010-01-11T00:00:00", [ "{\"address\":\"5002 UNDERWOOD AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.2650790827596", "-95.99081599849092", null, false ] ]
+, [ 601, "D0D9DB99-9B6A-4AAA-8E86-9739D914A0A9", 601, 1333036797, "275812", 1333036888, "275812", "{\n}", "DUNN DEAL", "FAIR", "2011-05-18T00:00:00", [ "{\"address\":\"2310 NO 16TH ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.280286618275056", "-95.93744123605194", null, false ] ]
+, [ 624, "BB106636-402D-4641-B880-B272B48AEF5D", 624, 1333036797, "275812", 1333036879, "275812", "{\n}", "EL ALAMO", "FAIR", "2010-04-20T00:00:00", [ "{\"address\":\"4917 SO 24 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20911427287626", "-95.94706398176544", null, false ] ]
+, [ 652, "22CE8544-3B66-4767-86AF-1FE8D232514F", 652, 1333036797, "275812", 1333036817, "275812", "{\n}", "EL TAQUERA PELIGRO", "FAIR", "2010-05-31T00:00:00", [ "{\"address\":\"5133 SO 25 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20609255085782", "-95.94854786311379", null, false ] ]
+, [ 679, "EBD9F585-6808-4795-BC30-217761215601", 679, 1333036797, "275812", 1333036901, "275812", "{\n}", "FAMILY FUN CENTER", "FAIR", "2010-06-14T00:00:00", [ "{\"address\":\"7052 DODGE ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.259638184482355", "-96.02177066273941", null, false ] ]
+, [ 736, "0AB1F394-7F50-4075-B133-AC98265EDC5D", 736, 1333036797, "275812", 1333036808, "275812", "{\n}", "FOX & HOUND ENG PUB & GRILL", "FAIR", "2011-03-16T00:00:00", [ "{\"address\":\"506 NO 120 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.263554053652754", "-96.10064219298035", null, false ] ]
+, [ 737, "2C077957-68D9-4C89-8B40-9171703A7C47", 737, 1333036797, "275812", 1333036820, "275812", "{\n}", "FOX & HOUND ENG PUB & GRILL", "FAIR", "2011-04-21T00:00:00", [ "{\"address\":\"17602 WRIGHT\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.2327769154576", "-96.18207980260783", null, false ] ]
+, [ 768, "34C94F8E-F4C6-4B27-AC12-E01FB350A5C4", 768, 1333036797, "275812", 1333036824, "275812", "{\n}", "GLOBAL FOODS INC", "FAIR", "2010-05-04T00:00:00", [ "{\"address\":\"1533 NO SADDLE CREEK\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.260689999643944", "-95.94059000012828", null, false ] ]
+, [ 778, "0EE35F96-B4E1-4725-AA76-BCC647CFEA58", 778, 1333036797, "275812", 1333036809, "275812", "{\n}", "GODFATHER'S PIZZA", "FAIR", "2011-06-22T00:00:00", [ "{\"address\":\"6305 AMES AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.29946915716005", "-96.00965679500473", null, false ] ]
+, [ 824, "206D0AB9-81BF-41DF-872A-A55ECC5CD337", 824, 1333036797, "275812", 1333036816, "275812", "{\n}", "GYRO AND MORE", "FAIR", "2010-05-27T00:00:00", [ "{\"address\":\"10000 CALIFORNIA, STE 24\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.264523028662666", "-96.06701102755102", null, false ] ]
+, [ 850, "D642B57B-F7A3-4AEE-9EC6-1000389B04B4", 850, 1333036797, "275812", 1333036890, "275812", "{\n}", "HELADOS SANTA FE", "FAIR", "2011-05-10T00:00:00", [ "{\"address\":\"4218 SO 50 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.2169875698557", "-95.99044175600315", null, false ] ]
+, [ 889, "7F34A031-9FBA-46C6-AFEC-4FD7DA64B904", 889, 1333036797, "275812", 1333036855, "275812", "{\n}", "HONG KONG CAFE", "FAIR", "2011-04-25T00:00:00", [ "{\"address\":\"664 NO 114 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.26574409671385", "-96.09103581630646", null, false ] ]
+, [ 940, "754CB850-3106-4D12-B0FB-2F37ACAA78C3", 940, 1333036797, "275812", 1333036849, "275812", "{\n}", "INDIAN GROCERY", "FAIR", "2011-03-04T00:00:00", [ "{\"address\":\"3029 SO 83 PLZ\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23209064280315", "-96.04190553076452", null, false ] ]
+, [ 948, "FBA9D3A4-96D6-4DC8-91D0-8CD71BCEA171", 948, 1333036797, "275812", 1333036910, "275812", "{\n}", "INTERNATIONAL BUFFET", "FAIR", "2011-06-23T00:00:00", [ "{\"address\":\"4827 L ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.212483273533635", "-95.98724951074765", null, false ] ]
+, [ 954, "254646EB-1763-403E-8A3C-931D46C0954C", 954, 1333036797, "275812", 1333036817, "275812", "{\n}", "JACK & MARY'S RESTAURANT", "FAIR", "2011-05-20T00:00:00", [ "{\"address\":\"655 NO 114 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.26555889779391", "-96.09090491720355", null, false ] ]
+, [ 960, "463696D7-863C-4FB5-A264-DB824A65FFC6", 960, 1333036797, "275812", 1333036831, "275812", "{\n}", "JADE GARDEN", "FAIR", "2011-07-20T00:00:00", [ "{\"address\":\"2068 NO 117 AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.278326834157774", "-96.09830199508731", null, false ] ]
+, [ 1015, "E7FF11AB-07DC-4D8E-BF25-862CBC604EF7", 1015, 1333036798, "275812", 1333036899, "275812", "{\n}", "JOE'S CAFÉ", "FAIR", "2011-07-06T00:00:00", [ "{\"address\":\"6564 MAPLE ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.285017052149215", "-96.01371273735685", null, false ] ]
+, [ 1070, "67B4A1D1-DEBC-4269-849C-2EF721C72957", 1070, 1333036798, "275812", 1333036844, "275812", "{\n}", "KNOLLS GOLF COURSE", "FAIR", "2011-07-19T00:00:00", [ "{\"address\":\"11630 SAHLER\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.29696355194425", "-96.09474410436883", null, false ] ]
+, [ 1086, "E4FC542C-A116-40C2-A335-3FE68F408424", 1086, 1333036798, "275812", 1333036898, "275812", "{\n}", "KUM & GO #348", "FAIR", "2011-07-11T00:00:00", [ "{\"address\":\"12011 BLONDO ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.27761563184805", "-96.10112683860484", null, false ] ]
+, [ 1092, "A304BFA8-8594-4F83-A809-7D4EC9B5BEB6", 1092, 1333036798, "275812", 1333036868, "275812", "{\n}", "KURRY EXPRESS", "FAIR", "2010-08-26T00:00:00", [ "{\"address\":\"10841 Q ST #105\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.205292154251765", "-96.0835630793726", null, false ] ]
+, [ 1107, "2259F2F3-1A40-46D0-A267-34378CCAAC27", 1107, 1333036798, "275812", 1333036817, "275812", "{\n}", "LA CHIRIPA", "FAIR", "2011-02-16T00:00:00", [ "{\"address\":\"1920 VINTON ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23159732360875", "-95.94149717840406", null, false ] ]
+, [ 1108, "95B31FF2-B4FB-4D23-9B47-C45968A306FE", 1108, 1333036798, "275812", 1333036864, "275812", "{\n}", "LA CHIRIPA MOBLE UNIT", "FAIR", "2011-02-16T00:00:00", [ "{\"address\":\"1920 VINTON ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23159732360875", "-95.94149717840406", null, false ] ]
+, [ 1110, "E35D6596-97CB-423B-BFA9-7CCC7417C0A6", 1110, 1333036798, "275812", 1333036897, "275812", "{\n}", "LA FLOR DE MEXICO", "FAIR", "2010-09-23T00:00:00", [ "{\"address\":\"4808 SO 24 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.210706072868106", "-95.94706398176544", null, false ] ]
+, [ 1111, "7D8AF792-4493-41AC-A0DB-B5AF52704396", 1111, 1333036798, "275812", 1333036854, "275812", "{\n}", "LA FONDITA", "FAIR", "2011-03-16T00:00:00", [ "{\"address\":\"2411 I ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.21608401860334", "-95.9476215614236", null, false ] ]
+, [ 1114, "87BFD568-2E25-4E64-96E6-13E35FF25DE0", 1114, 1333036798, "275812", 1333036858, "275812", "{\n}", "LALIBELA", "FAIR", "2010-06-25T00:00:00", [ "{\"address\":\"4422 CASS ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.263900970901204", "-95.98031191718866", null, false ] ]
+, [ 1183, "03B7B88A-0CB8-4194-919E-DF0193C4BF5A", 1183, 1333036798, "275812", 1333036805, "275812", "{\n}", "LOUIS BEER-LIQUOR MARKET", "FAIR", "2011-06-07T00:00:00", [ "{\"address\":\"5702 NW RADIAL HWY\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.28499906570863", "-96.00101431030316", null, false ] ]
+, [ 1360, "E7299BF7-F0F8-45C3-9533-E27933FC4F27", 1360, 1333036798, "275812", 1333036899, "275812", "{\n}", "OAK HILLS COUNTRY CLUB", "FAIR", "2011-07-19T00:00:00", [ "{\"address\":\"12325 GOLFING GREEN DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.19606359681204", "-96.10549717408628", null, false ] ]
+, [ 1389, "9F5E9FB2-5109-4E53-AB2F-0C86F86313BE", 1389, 1333036798, "275812", 1333036867, "275812", "{\n}", "OLEAVER'S PUB", "FAIR", "2011-03-15T00:00:00", [ "{\"address\":\"1322 SO SADDLE CREEK RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.245968489636994", "-95.98949399510781", null, false ] ]
+, [ 1415, "6B6F2E28-2690-4B24-B6B6-C87E31C768FC", 1415, 1333036798, "275812", 1333036846, "275812", "{\n}", "OMAHA TROPICAL MARKET", "FAIR", "2011-02-24T00:00:00", [ "{\"address\":\"2322 NO 72 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.27982139588346", "-96.02396722353885", null, false ] ]
+, [ 1419, "F487B860-EE7A-4CA1-A7DD-0F83D229B168", 1419, 1333036798, "275812", 1333036907, "275812", "{\n}", "OPEN DOOR MISSION", "FAIR", "2010-01-26T00:00:00", [ "{\"address\":\"2706 NO 21 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23410963105592", "-95.94416012573717", null, false ] ]
+, [ 1556, "66AFB432-FBC4-4221-94AB-ADAEE27681C3", 1556, 1333036799, "275812", 1333036843, "275812", "{\n}", "QUALITY INN & SUITES", "FAIR", "2011-05-02T00:00:00", [ "{\"address\":\"11515 MIRACLE HILLS DR\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.26813677765921", "-96.09482259117942", null, false ] ]
+, [ 1604, "711AC8DA-9A8B-4243-98D6-6F5453650A11", 1604, 1333036799, "275812", 1333036848, "275812", "{\n}", "RICE BOWL", "FAIR", "2010-01-05T00:00:00", [ "{\"address\":\"505 NO SADDLE CREEK RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.26433264547529", "-95.98081553752507", null, false ] ]
+, [ 1605, "77BC41A3-2D6A-49BE-8EBF-4C277F519BCA", 1605, 1333036799, "275812", 1333036850, "275812", "{\n}", "RICHIE'S CHICKEN & RIBS", "FAIR", "2011-06-17T00:00:00", [ "{\"address\":\"3528 CENTER ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.241525838812265", "-95.96495149692822", null, false ] ]
+, [ 1611, "02E2873B-1C9C-40BC-94A5-B3939162931F", 1611, 1333036799, "275812", 1333036804, "275812", "{\n}", "RIVER CITY SALOON", "FAIR", "2011-01-20T00:00:00", [ "{\"address\":\"1802 VINTON ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23345892020944", "-95.93980645298899", null, false ] ]
+, [ 1622, "9605B91C-9F75-42A7-8902-DBEAFF0B6EA6", 1622, 1333036799, "275812", 1333036864, "275812", "{\n}", "ROMAN COIN PIZZA", "FAIR", "2010-05-03T00:00:00", [ "{\"address\":\"9735 Q STREET\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20528972309551", "-96.06461892105693", null, false ] ]
+, [ 1653, "595A789B-F8FF-4525-88A4-E174E3D7BEFA", 1653, 1333036800, "275812", 1333036839, "275812", "{\n}", "RYAN'S BISTRO", "FAIR", "2011-02-28T00:00:00", [ "{\"address\":\"17607 GOLD PLZ\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23508669308245", "-96.19071729916368", null, false ] ]
+, [ 1688, "D36AF65B-E392-4996-9C2F-DF46391FA7E5", 1688, 1333036800, "275812", 1333036889, "275812", "{\n}", "SCOOTERS COFFEE HOUSE", "FAIR", "2011-05-06T00:00:00", [ "{\"address\":\"2875 SO 132 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23257198858586", "-96.1193467825877", null, false ] ]
+, [ 1701, "A3E078B2-A208-44D0-8594-4A5EF35FE4A9", 1701, 1333036800, "275812", 1333036869, "275812", "{\n}", "SCOOTERS JAVA EXPRESS", "FAIR", "2010-03-08T00:00:00", [ "{\"address\":\"10000 CALIFORNIA\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.264523028662666", "-96.06701102755102", null, false ] ]
+, [ 1710, "81232EE4-B67C-4A29-9B99-E3173140215C", 1710, 1333036800, "275812", 1333036856, "275812", "{\n}", "SEASON BUFFET", "FAIR", "2010-10-07T00:00:00", [ "{\"address\":\"7415 DODGE PLZ\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.259629455667856", "-96.0289205109129", null, false ] ]
+, [ 1723, "70B2D2F1-89E4-4BEB-B318-6119A083223A", 1723, 1333036800, "275812", 1333036848, "275812", "{\n}", "SHARK CLUB (THE)", "FAIR", "2011-04-07T00:00:00", [ "{\"address\":\"2808 SO 72 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23301825241509", "-96.02389306272858", null, false ] ]
+, [ 1742, "82C91045-3955-4D54-9845-23FEFDD2AB51", 1742, 1333036800, "275812", 1333036856, "275812", "{\n}", "SKEETS RIBS", "FAIR", "2010-04-08T00:00:00", [ "{\"address\":\"2201 NO 24 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.278955621671685", "-95.94704599532486", null, false ] ]
+, [ 1816, "2A998F77-2C1B-40B3-AE59-1157A44E1230", 1816, 1333036800, "275812", 1333036819, "275812", "{\n}", "STOYSICH HOUSE OF SAUSAGE", "FAIR", "2011-05-18T00:00:00", [ "{\"address\":\"2532 SO 24 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23437622867931", "-95.94704599532486", null, false ] ]
+, [ 1883, "0685B9FF-3E4F-40D7-9280-9804949D9967", 1883, 1333036800, "275812", 1333036806, "275812", "{\n}", "SUPER BEE MART", "FAIR", "2011-07-01T00:00:00", [ "{\"address\":\"2611 ST MARYS AVE\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.253651973552365", "-95.95007787299586", null, false ] ]
+, [ 1933, "CD977ED3-3F22-4474-94C9-AD8DA101621A", 1933, 1333036800, "275812", 1333036887, "275812", "{\n}", "TAQUERIA EL REY", "FAIR", "2010-10-07T00:00:00", [ "{\"address\":\"5201 SO 24 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.205534161809815", "-95.94700010734677", null, false ] ]
+, [ 1935, "C340EF3D-4997-4E5B-873E-1E7D9B90522B", 1935, 1333036800, "275812", 1333036882, "275812", "{\n}", "TAQUERIA TIJUANA", "FAIR", "2010-03-22T00:00:00", [ "{\"address\":\"5139 SO 24 ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20576879492728", "-95.94707297498576", null, false ] ]
+, [ 1966, "D9BFD1FD-3EE3-4140-94F4-11DD623BAF5F", 1966, 1333036800, "275812", 1333036892, "275812", "{\n}", "THAI SPICE", "FAIR", "2011-06-16T00:00:00", [ "{\"address\":\"555 NO 155 PLZ\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.263703484793936", "-96.15638394260911", null, false ] ]
+, [ 1979, "51DF75F4-FABA-498F-80E2-9046CC59A296", 1979, 1333036800, "275812", 1333036836, "275812", "{\n}", "TOBACCO & PHONES 4 LESS", "FAIR", "2010-04-27T00:00:00", [ "{\"address\":\"4108 DODGE ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25964717770262", "-95.97489799857226", null, false ] ]
+, [ 1989, "E6541746-A644-4EFE-A6AB-16A75C23DC90", 1989, 1333036800, "275812", 1333036899, "275812", "{\n}", "TOKYO KITCHEN", "FAIR", "2011-07-22T00:00:00", [ "{\"address\":\"14132 ARBOR ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.23595458998355", "-96.13588429059413", null, false ] ]
+, [ 2022, "7DEEDFA5-A66B-4D39-B81F-F495CE045162", 2022, 1333036801, "275812", 1333036855, "275812", "{\n}", "TWO FINE IRISHMEN", "FAIR", "2010-09-02T00:00:00", [ "{\"address\":\"18101 R PLZ STE 108\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20435685934126", "-96.19900904827387", null, false ] ]
+, [ 2046, "3A4803A3-013C-4A17-8311-E25837562664", 2046, 1333036801, "275812", 1333036826, "275812", "{\n}", "VARSITY SPORTS CAFÉ/ROMAN COIN PIZZA", "FAIR", "2011-06-09T00:00:00", [ "{\"address\":\"14529 F ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.2195823812973", "-96.14067002823316", null, false ] ]
+, [ 2058, "6B62646F-7861-400E-91E0-7B500CA78E73", 2058, 1333036801, "275812", 1333036845, "275812", "{\n}", "VILLAGE GRINDER", "FAIR", "2011-06-23T00:00:00", [ "{\"address\":\"8706 PACIFIC ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.24885617680985", "-96.04746215722669", null, false ] ]
+, [ 2084, "DE1275AE-5CDF-4D18-B9A9-1E60E5A5FD9E", 2084, 1333036801, "275812", 1333036894, "275812", "{\n}", "WALGREENS #05741", "FAIR", "2011-07-08T00:00:00", [ "{\"address\":\"3001 DODGE ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.259719123465004", "-95.9566597478181", null, false ] ]
+, [ 2108, "8D145BB8-6F43-4B7B-ACAE-728B085F102A", 2108, 1333036801, "275812", 1333036860, "275812", "{\n}", "WASABI SUSHI", "FAIR", "2011-03-01T00:00:00", [ "{\"address\":\"14513 W MAPLE RD\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.292085723299465", "-96.14127257399281", null, false ] ]
+, [ 2140, "CE02531E-E491-450E-865E-5CE81C19C4B3", 2140, 1333036801, "275812", 1333036887, "275812", "{\n}", "WHEATFIELD'S EATERY-BAKERY", "FAIR", "2010-09-29T00:00:00", [ "{\"address\":\"1202 HOWARD ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.25544734382578", "-95.93218919540084", null, false ] ]
+, [ 2154, "2EB15B59-525C-4029-8EFE-8DFAF7D5C1B1", 2154, 1333036801, "275812", 1333036821, "275812", "{\n}", "WINCHESTER BAR", "FAIR", "2010-10-05T00:00:00", [ "{\"address\":\"7002 Q ST\",\"city\":\"Omaha\",\"state\":\"NE\",\"zip\":\"\"}", "41.20527416781118", "-96.02043966613604", null, false ] ]
+ ]
+}

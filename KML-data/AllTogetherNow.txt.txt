@@ -1,0 +1,7 @@
+lat
+long
+tip
+url
+photo
+foursquareid
+placename

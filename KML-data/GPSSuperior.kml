@@ -1,0 +1,1478 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[GPS data]]></name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <Snippet><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=1334423635">GPS Visualizer</A>]]></Snippet>
+    <Style id="gv_waypoint_normal">
+      <IconStyle>
+        <color>FFFFFFFF</color>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>FFFFFFFF</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<p align="left" style="white-space:nowrap;"><font size="+1"><b>$[name]</b></font></p> <p align="left">$[description]</p>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="gv_waypoint_highlight">
+      <IconStyle>
+        <color>FFFFFFFF</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.ca/mapfiles/kml/pal4/icon56.png</href>
+        </Icon>
+        <hotSpot x="0.5" xunits="fraction" y="0.5" yunits="fraction" />
+      </IconStyle>
+      <LabelStyle>
+        <color>FFFFFFFF</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<p align="left" style="white-space:nowrap;"><font size="+1"><b>$[name]</b></font></p> <p align="left">$[description]</p>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="gv_waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#gv_waypoint_normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#gv_waypoint_highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder id="Waypoints">
+      <name>Waypoints</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>ACKERMAN ELEM SCHOOL</name>
+        <description><![CDATA[5110 SO 156 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.158098889,41.207090798,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ADAMS ELEM SCHOOL</name>
+        <description><![CDATA[3420 NO 78 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.03357146,41.290576062,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ALDRICH ELEM SCHOOL</name>
+        <description><![CDATA[506 NO 162ND AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.168477065,41.26448553,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ARAMARK/CONAGRA</name>
+        <description><![CDATA[ELEVEN CON AGRA DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.925081717,41.253258671,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ARAMARK CORP</name>
+        <description><![CDATA[7350 WORLD COMMUNICATION DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.026540474,41.337150952,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ARAMARK CORP</name>
+        <description><![CDATA[ONE CON AGRA DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.927322315,41.256304331,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ASHLAND PARK/ROBBINS ELEM</name>
+        <description><![CDATA[5050 SO 51ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.993044919,41.20793302,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BANCROFT SCHOOL CAFETERIA</name>
+        <description><![CDATA[2724 RIVERVIEW BLVD.]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.925507233,41.233683751,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BEADLE MIDDLE SCHOOL</name>
+        <description><![CDATA[18201 JEFFERSON ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.199882163,41.195618183,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BEALS SCHOOL CAFETERIA</name>
+        <description><![CDATA[1720 SO 48 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.985420066,41.242317242,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BENNINGTON ELEMENTRY</name>
+        <description><![CDATA[156 BENNINGTON RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BENNINGTON HIGH SCHOOL</name>
+        <description><![CDATA[11620 OLD BENNINGTON RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BENSON WEST SCH CAFETERIA</name>
+        <description><![CDATA[6652 MAPLE ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.015775241,41.285080868,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BEVERIDGE JR HIGH SCHOOL</name>
+        <description><![CDATA[1616 SO 120 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.100704157,41.242326235,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BLACK ELK ELEMENTARY</name>
+        <description><![CDATA[6708 SO 161 AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.165680174,41.192287958,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BOYD SCHOOL CAFETERIA</name>
+        <description><![CDATA[8314 BOYD ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.04237413,41.298273059,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BOYS TOWN VISITORS CTR CAFE</name>
+        <description><![CDATA[13747 FLANAGAN BLVD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BOYS TOWN WEGNER SCHOOL</name>
+        <description><![CDATA[14124 NORTON DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BROWNELL TALBOT SCHOOL</name>
+        <description><![CDATA[400 NO HAPPY HOLLOW]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BRYAN SCHOOL CAFETERIA</name>
+        <description><![CDATA[8210 SO 42 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BRYAN SENIOR HIGH</name>
+        <description><![CDATA[4700 GILES RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.984378273,41.176325038,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BUFFETT MIDDLE SCHOOL</name>
+        <description><![CDATA[14101 LARIMORE AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.135496646,41.302354333,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BURKE SR HIGH SCHOOL</name>
+        <description><![CDATA[12200 DODGE ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CASTELAR ELEMENTARY</name>
+        <description><![CDATA[2316 SO 18 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.939762445,41.237983686,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CATLIN MAGNET ELEM</name>
+        <description><![CDATA[12736 MARINDA ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.113258693,41.238701968,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CENTRAL HIGH SCH CAFETERIA</name>
+        <description><![CDATA[124 NO 20 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.942414487,41.260420595,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CHANDLER VIEW SCHOOL</name>
+        <description><![CDATA[7800 SO 25 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COLUMBIAN ELEM SCHOOL</name>
+        <description><![CDATA[330 SO 127 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.110776564,41.256904246,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CORRECTIONAL FAC KITCHEN</name>
+        <description><![CDATA[710 SO 17 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.9381517,41.253172059,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>COTTONWOOD ELEMENTARY</name>
+        <description><![CDATA[615 PIEDMONT DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.15575849,41.254500555,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CRESTRIDGE MAGNET SCHOOL</name>
+        <description><![CDATA[818 CRESTRIDGE DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.094586299,41.25254154,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DINING ROOM AT UPRR (THE)</name>
+        <description><![CDATA[1400 DOUGLAS ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.93552568,41.25864893,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DR J P LORD SCH CAFETERIA</name>
+        <description><![CDATA[330 SO 44 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.978603205,41.256931225,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DUNDEE SCHOOL</name>
+        <description><![CDATA[310 NO 52 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.995151716,41.261459071,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EDISON ELEM SCHOOL</name>
+        <description><![CDATA[2303 NO 97 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.064623357,41.279998835,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ELKHORN MIDDLE SCHOOL</name>
+        <description><![CDATA[3200 NO 207 PLZ]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.240082098,41.284766262,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ELKHORN RIDGE MIDDLE SCHOOL</name>
+        <description><![CDATA[17880 MERCY RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ELKHORN SENIOR HIGH</name>
+        <description><![CDATA[1401 VETERANS DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.230543532,41.270550088,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ELKHORN WESTRIDGE ELEM</name>
+        <description><![CDATA[3100 NO 206 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.237823714,41.286528737,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EZRA MILLARD ELEMENTARY</name>
+        <description><![CDATA[14111 BLONDO ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.133724969,41.277605775,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FIELD CLUB SCHOOL</name>
+        <description><![CDATA[3512 WALNUT ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.964951497,41.242416168,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FIRE RIDGE ELEM</name>
+        <description><![CDATA[19660 FARNAM ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.224066225,41.256648181,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FRANKLIN SCHOOL CAFETERIA</name>
+        <description><![CDATA[3506 FRANKLIN ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.964671881,41.274658512,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>FULLERTON MAGNET CENTER</name>
+        <description><![CDATA[4711 NO 138 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.130265048,41.301639461,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GENJI JAPANESE STEAKHOUSE</name>
+        <description><![CDATA[14529 W CENTER RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.141308656,41.233752135,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GEORGE NORRIS ELEM SCHOOL</name>
+        <description><![CDATA[12424 WEIR ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.107458066,41.205750808,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GEORGIA WHEELER ELEMENTARY</name>
+        <description><![CDATA[6707 SO 178 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.194530425,41.191271724,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GILDER SCHOOL CAFETERIA</name>
+        <description><![CDATA[3705 CHANDLER RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GOMEZ ELEMENTARY</name>
+        <description><![CDATA[5101 SO 17]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GRACE ABBOTT ELEMENTARY</name>
+        <description><![CDATA[1313 NO 156 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.158062916,41.271536215,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GRETCHEN REEDER ELEMENTARY</name>
+        <description><![CDATA[19202 CHANDLER ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HARRISON SCHOOL CAFETERIA</name>
+        <description><![CDATA[5304 HAMILTON ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.997219171,41.272291645,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HARRY ANDERSEN MIDDLE SCHOOL</name>
+        <description><![CDATA[15404 ADAMS ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.153764157,41.195417598,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HARTMAN ELEMENTARY</name>
+        <description><![CDATA[5530 NO 66 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.014189378,41.309406666,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HARVEY OAKS ELEMENTARY</name>
+        <description><![CDATA[15228 SHIRLEY ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.150093361,41.2404809,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HERMAN ROHWER ELEMENTARY</name>
+        <description><![CDATA[17701 F ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.192623862,41.21943849,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HIGHLAND ELEMENTARY</name>
+        <description><![CDATA[2625 JEFFERSON ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.952675751,41.195651422,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HILLRISE ELEMENTARY</name>
+        <description><![CDATA[20110 HOPPER]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.227641459,41.289453382,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HILLSIDE ELEMENTARY</name>
+        <description><![CDATA[7500 WESTERN AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.029306981,41.270537967,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HITCHCOCK ELEM SCHOOL</name>
+        <description><![CDATA[5809 SO 104 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.075999781,41.199482534,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HOLLAND PERFORMING ARTS CENTER</name>
+        <description><![CDATA[1200 DOUGLAS]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.931931038,41.258677304,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HOLLING HEIGHTS ELEM SCHOOL</name>
+        <description><![CDATA[6565 SO 136 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.126847691,41.194114223,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HORIZON HIGH SCHOOL</name>
+        <description><![CDATA[5300 GEORGE B LAKE PWY]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HUHOT MONGOLIAN GRILL</name>
+        <description><![CDATA[17660 WRIGHT ST # 14]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.191550648,41.232605428,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HY-VEE FOOD</name>
+        <description><![CDATA[14591 STONY BROOK BLVD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.144384271,41.199356535,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>HY-VEE FOOD</name>
+        <description><![CDATA[8809 W CENTER RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.051065099,41.234140325,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>INDIAN HILL ELEM AND JR HI</name>
+        <description><![CDATA[3121 U ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.959366707,41.201577954,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JACKSON ELEMENTARY SCHOOL</name>
+        <description><![CDATA[620 SO 31 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.957891819,41.25306414,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JEFFERSON SCHOOL CAFETERIA</name>
+        <description><![CDATA[4065 VINTON ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.974061629,41.227433463,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>J G MASTERS SCH CAFETERIA</name>
+        <description><![CDATA[5505 NO 99 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.066988574,41.307688961,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JOHNNY'S ITALIAN STEAKHOUSE</name>
+        <description><![CDATA[305 NO 170]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>J STERLING-MORTON ELEM SCH.</name>
+        <description><![CDATA[1805 SO 160 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.165176554,41.240743429,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KAREN WESTERN ELEM SCHOOL</name>
+        <description><![CDATA[6224 H ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.010960812,41.217046293,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KELLOM SCHOOL CAFETERIA</name>
+        <description><![CDATA[1311 NO 24 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.947028009,41.271041588,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KING PRIMARY</name>
+        <description><![CDATA[3706 MAPLE ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.967289734,41.284720276,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KING SCIENCE CENTER</name>
+        <description><![CDATA[3720 FLORENCE BLVD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.942180663,41.293155917,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KOBE STEAK HOUSE OF JAPAN</name>
+        <description><![CDATA[120 REGENCY PKWY]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.069640976,41.260041551,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>KONA GRILL</name>
+        <description><![CDATA[295 NO 170 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.181371095,41.26076729,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LAURA DODGE SCHOOL</name>
+        <description><![CDATA[3520 MAPLEWOOD BLV]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.06438054,41.290314059,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LEWIS AND CLARK JR HIGH</name>
+        <description><![CDATA[6901 BURT ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.021626771,41.26688672,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LIBERTY ELEMENTARY</name>
+        <description><![CDATA[2021 ST MARYS AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.943853402,41.254188293,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>LOVELAND SCHOOL</name>
+        <description><![CDATA[8100 PACIFIC ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.039367157,41.248874163,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MANCHESTER ELEM SCHOOL</name>
+        <description><![CDATA[2750 CLEVELAND BLVD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MARI SANDOZ SCHOOL</name>
+        <description><![CDATA[5959 OAK HILLS DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.106630689,41.198412341,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MARRS ELEM AND JR HIGH</name>
+        <description><![CDATA[5619 SO 19 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.940426985,41.200372863,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MCMILLAN JR HI SCHOOL CAF</name>
+        <description><![CDATA[3802 REDICK AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.969699917,41.317536537,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MEADOWS SCHOOL</name>
+        <description><![CDATA[9225 BERRY ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.057428781,41.19849328,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MIDWEST NEURO SCIENCE CENTER</name>
+        <description><![CDATA[7915 FARNAM ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.036058962,41.257847329,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MILLARD CENTRAL JR HIGH</name>
+        <description><![CDATA[12801 L ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.113609428,41.212432771,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MILLARD NORTH HIGH SCHOOL</name>
+        <description><![CDATA[1010 SO 144 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.138718499,41.251364422,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MILLARD NORTH JUNIOR HIGH</name>
+        <description><![CDATA[2828 SO 139 PLZ]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.129415403,41.233178435,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MILLARD SOUTH HIGH 9-10</name>
+        <description><![CDATA[14905 Q ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.146029988,41.205382086,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MILLARD WEST HIGH SCHOOL</name>
+        <description><![CDATA[5710 SO 176 AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.192030309,41.201272185,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MINNE LUSA SCH. CAFETERIA</name>
+        <description><![CDATA[2728 IDA ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.95381789,41.321430601,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MOCKINGBIRD SCHOOL</name>
+        <description><![CDATA[9301 Q ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.056381161,41.205291291,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MONROE MIDDLE SCHOOL</name>
+        <description><![CDATA[5105 BEDFORD AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.992875272,41.288541531,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MONTCLAIR ELEM. SCHOOL</name>
+        <description><![CDATA[2405 SO 138 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.128493208,41.23828828,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MOUNT VIEW SCHOOL CAFETERIA</name>
+        <description><![CDATA[5322 NO 52 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.994997846,41.308138622,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NATHAN HALE JR HI SCHOOL</name>
+        <description><![CDATA[6143 WHITMORE ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.008937337,41.321619459,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NORMAN ROCKWELL ELEMENTARY</name>
+        <description><![CDATA[6370 SO 140 AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.133479878,41.195143682,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NORTHWEST SR HIGH</name>
+        <description><![CDATA[8204 CROWN POINT AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.040296697,41.312734157,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OAK VALLEY ELEM SCHOOL</name>
+        <description><![CDATA[3109 PEDERSEN DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.108627403,41.228552376,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OLD COUNTRY BUFFET</name>
+        <description><![CDATA[14525 W CENTER RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.141231289,41.233751051,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>OMAHA MARRIOTT HOTEL</name>
+        <description><![CDATA[10220 REGENCY CIR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.073331166,41.259851448,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PADDOCK ROAD SCHOOL</name>
+        <description><![CDATA[3535 PADDOCK RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.057455761,41.227046754,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PAWNEE ELEM SCHOOL</name>
+        <description><![CDATA[7310 SO 48 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.986723744,41.186568601,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PETER KIEWIT MIDDLE SCHOOL</name>
+        <description><![CDATA[15650 HOWARD ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.159088143,41.255060635,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PICOTTE SCHOOL</name>
+        <description><![CDATA[14506 OHIO]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.14124248,41.28364649,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PINE CREEK ELEM</name>
+        <description><![CDATA[7801 N HWS CLEVELAND]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PINEWOOD ELEM</name>
+        <description><![CDATA[6306 REDICK AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PONCA SCHOOL CAFETERIA</name>
+        <description><![CDATA[11300 NO POST RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.975653429,41.362682503,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PRAIRIE LANE ELEM SCHOOL</name>
+        <description><![CDATA[11444 HASCALL ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.09268761,41.229223977,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PRAIRIE WIND ELEM SCHOOL</name>
+        <description><![CDATA[10908 ELLISON AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.08219611,41.310683703,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RALSTON HIGH SCHOOL</name>
+        <description><![CDATA[8969 PARK DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.049919442,41.201434063,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RALSTON MIDDLE SCHOOL</name>
+        <description><![CDATA[8302 LAKEVIEW ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.041940079,41.208999522,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ROCKBROOK SCHOOL</name>
+        <description><![CDATA[2514 SO 108 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.081458666,41.235824137,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RONALD REAGAN ELEMENTARY</name>
+        <description><![CDATA[4440 SO 198 AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.225745892,41.215769256,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ROSEHILL ELEMENTARY SCHOOL</name>
+        <description><![CDATA[5605 CORBY ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.999971097,41.284072764,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RUSSELL MIDDLE SCHOOL</name>
+        <description><![CDATA[5304 SO 172 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.183423798,41.204428805,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SADDLEBROOK ELEM</name>
+        <description><![CDATA[14850 LAUREL ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.146874653,41.31027811,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SARAH JOSLYN CAFETERIA</name>
+        <description><![CDATA[11220 BLONDO ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.086539835,41.27777751,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SARATOGA SCHOOL CAFETERIA</name>
+        <description><![CDATA[2504 MEREDITH AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.947468677,41.300305527,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SEYMOUR ELEM SCHOOL</name>
+        <description><![CDATA[7900 SEYMOUR ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.03675768,41.210842101,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SHERMAN SCHOOL CAFETERIA</name>
+        <description><![CDATA[5618 NO 14 AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.934959107,41.310036191,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SKYLINE ELEMENTARY</name>
+        <description><![CDATA[400 SO 210 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.243735748,41.254734796,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SPRING LAKE SCHOOL</name>
+        <description><![CDATA[4215 SO 20 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.941667113,41.218275153,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SPRING RIDGE ELEMENTARY</name>
+        <description><![CDATA[17830 SHADOW RIDGE DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.194168372,41.245030311,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SPRINGVILLE SCH CAFETERIA</name>
+        <description><![CDATA[7300 NO 60 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.004720817,41.32482713,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>STANDING BEAR ELEMENTARY</name>
+        <description><![CDATA[15660 TAYLOR ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.159268008,41.297850378,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ST BERNARD'S SCH CAFETERIA</name>
+        <description><![CDATA[3604 NO 65 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.011887114,41.291339286,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ST JAMES SETON SCHOOL</name>
+        <description><![CDATA[4720 NO 90 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.052707341,41.301708469,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ST MARGARET MARY SCHOOL</name>
+        <description><![CDATA[123 NO 61 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.005811474,41.261485707,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ST PATRICKS SCHOOL</name>
+        <description><![CDATA[20500 W MAPLE RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.235407026,41.292077594,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ST ROBERT BELLARMINE SCH</name>
+        <description><![CDATA[11900 PACIFIC ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.098626723,41.248666456,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>STS PETER AND PAUL SCHOOL</name>
+        <description><![CDATA[3619 X ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.967820712,41.199041003,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ST STEPHEN THE MARTYR</name>
+        <description><![CDATA[16701 SO ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.175162326,41.203900802,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ST THOMAS MORE SCHOOL</name>
+        <description><![CDATA[3515 SO 48 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.985393776,41.226772352,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ST WENCESLAUS SCHOOL</name>
+        <description><![CDATA[15353 PACIFIC ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.153764157,41.248513571,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SUNNY SLOPE SCHOOL</name>
+        <description><![CDATA[10829 OLD MAPLE RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.08190571,41.29446837,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SUNSET HILLS SCHOOLS</name>
+        <description><![CDATA[9400 WALNUT ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SWANSON SCHOOL</name>
+        <description><![CDATA[8600 HARNEY ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.045652282,41.257359097,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UPCHURCH ELEM</name>
+        <description><![CDATA[8686 SO 165 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.172191265,41.173573066,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UPSTREAM BREWING COMPANY WEST</name>
+        <description><![CDATA[17070 WRIGHT PLZ]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.181436296,41.233054225,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>UTA HALEE</name>
+        <description><![CDATA[10625 CALHOUN RD]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.977901734,41.356243357,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>V MERTZ RESTAURANT</name>
+        <description><![CDATA[1022 HOWARD ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.929565198,41.255502167,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WALNUT HILL SCHOOL</name>
+        <description><![CDATA[4370 HAMILTON ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.980212992,41.272183727,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WALT DISNEY ELEM SCHOOL</name>
+        <description><![CDATA[5717 SO 112 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.088168214,41.200588968,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WASHINGTON SCHOOL</name>
+        <description><![CDATA[5519 MAYBERRY ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.998127487,41.250546039,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WEST DODGE STATION ELEM</name>
+        <description><![CDATA[18480 CALIFORNIA ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.94059,41.26069,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WESTERN HILLS SCH CAFETERIA</name>
+        <description><![CDATA[6523 WESTERN AVE]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.012660531,41.270510988,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WESTGATE ELEM SCHOOL</name>
+        <description><![CDATA[7802 HASCALL ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.033731646,41.230257334,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WESTSIDE HIGH SCHOOL</name>
+        <description><![CDATA[8700 PACIFIC ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.047086488,41.248856177,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WILDWOOD SCHOOL</name>
+        <description><![CDATA[8545 PARK DR]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.045645071,41.201388233,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WILLA CATHER ELEM SCHOOL</name>
+        <description><![CDATA[3030 SO 139 PLZ]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.129203672,41.231480412,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WILLIAM CODY ELEM SCHOOL</name>
+        <description><![CDATA[3320 SO 127 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.112967832,41.227414169,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WILLIAM J BRYAN ELEM SCHOOL</name>
+        <description><![CDATA[5010 SO 144 ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.138938082,41.21030797,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WILLOWDALE ELEMENTARY SCHOOL</name>
+        <description><![CDATA[16901 P ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-96.17868437,41.206758049,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>WILSON MIDDLE SCHOOL</name>
+        <description><![CDATA[5141 F ST]]></description>
+        <styleUrl>#gv_waypoint</styleUrl>
+        <Point>
+          <altitudeMode>clampToGround</altitudeMode>
+          <coordinates>-95.994413287,41.219744259,0</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
